@@ -1,3 +1,6 @@
  copy NUL. nojekyll
  
  quarto render #Render the full site
+ 
+ git add .
+ git commit -m "initial commit"
