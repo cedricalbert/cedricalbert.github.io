@@ -2,5 +2,16 @@
  
  quarto render #Render the full site
  
- git add .
- git commit -m "initial commit"
+ 
+# --- Step 1: Check your current branch name ---
+system("git branch") 
+
+# --- Step 2: Initialize and Commit (If you haven't already) ---
+system("git add .")
+system("git commit -m "Initial commit of ResearchWebsite"")
+
+# --- Step 3: Rename your branch to 'main'---
+system("git branch -M main")
+
+# --- Step 4: Push to Origin ---
+system("git push -u origin main")
