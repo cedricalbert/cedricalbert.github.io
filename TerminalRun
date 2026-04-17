@@ -2,6 +2,8 @@
  
  quarto render #Render the full site
  
+ quarto preview #Force browser preview
+ 
  
 # --- Step 1: Check your current branch name ---
 system("git branch") 

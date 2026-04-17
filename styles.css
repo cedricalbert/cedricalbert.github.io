@@ -1,1 +1,133 @@
 /* css styles */
+
+/* --- Publication / Marquee Specifics --- */
+/* Publication Card Styling */
+.publication-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #1b4d3e; /* Our Forestry Green */
+  background-color: #fcfcfc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  border-radius: 0 8px 8px 0;
+}
+
+.publication-card:hover {
+  background-color: #f1f8f5;
+  transform: translateX(5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.publication-card strong {
+  font-size: 1.2rem;
+  color: #1b4d3e;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.publication-card em {
+  color: #555;
+  font-weight: 500;
+}
+
+/* Style the DOI/PDF links as small buttons */
+.publication-card a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 4px 12px;
+  background-color: #e9ecef;
+  color: #1b4d3e;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.publication-card a:hover {
+  background-color: #1b4d3e;
+  color: white;
+}
+
+
+
+
+
+
+/* --- Team page / Marquee Specifics --- */
+/* Center the container for the vertical list */
+.person-record {
+  display: block;
+  text-align: center;
+  margin-bottom: 5rem; /* Space between people */
+  padding: 20px;
+  clear: both;
+}
+
+/* Ensure the text doesn't stretch too wide on desktop */
+.person-record p {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make the photos consistent */
+.profile-photo {
+  width: 250px; /* Slightly larger for the vertical layout */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 70%;
+  border: 2px solid #1b4d3e;
+  margin-bottom: 20px;
+}
+
+/* Make the names stand out in forestry green */
+.person-record h3 {
+  color: #1b4d3e;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+
+
+
+/* --- Home Page / Marquee Specifics --- */
+
+/* Make the title and subtitle larger and green */
+.quarto-title .title {
+  font-size: 3.5rem !important;
+  text-align: center;
+  color: #1b4d3e !important;
+}
+
+.quarto-title .subtitle {
+  font-size: 1.8rem !important;
+  text-align: center;
+  color: #2e5a47 !important;
+}
+
+/* Make the main body text larger */
+section.description, .about-contents {
+  font-size: 1.3rem;
+}
+
+/* Make the 'marquee' image larger */
+.about-image {
+  width: 100% !important;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
+
+
+/* --- Global Navbar Settings --- */
+
+.navbar-brand {
+  font-size: 1.2rem !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+}

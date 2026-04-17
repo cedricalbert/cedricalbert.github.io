@@ -1,0 +1,27 @@
+---
+title: "Publications"
+---
+
+Manage and explore our latest research on forest dynamics, climate adaptation, and spatial modeling.
+
+## 2025
+
+::: {.publication-card}
+**The TransX project: A latitudinal network of provenance trials across eastern North America to test the climatic vulnerability of northeastern tree species and their potential for assisted migration** *The Forestry Chronicle* **Ravn, J., Moreau, G., Mayrinck, R., Itter, M., Albert, C., Spafford, L., Kneeshaw, D., Achim, A., Perron, M-P., Dumont, S., Rogers, G., Good, M., D'Orangeville, L.** 
+[Link to Open Access Article](https://pubs.cif-ifc.org/doi/10.5558/tfc2026-004)
+:::
+
+## 2024
+
+::: {.publication-card}
+**Integrating the effects of climate change into long-term strategic forest management planning using a process-based stand model** *Canadian Journal of Forest Research* **Albert, C., Taylor, A., D'Orangeville, L.**
+[Link to Open Access Article](https://cdnsciencepub.com/doi/10.1139/cjfr-2024-0238?utm_source=researchgate.net&utm_medium=article)
+:::
+
+
+## 2023
+
+::: {.publication-card}
+**The Acadian Forest of New Brunswick in the 21st century: what shifting heat and water balance imply for future stand dynamics and management** *Environmental Reviews* **Albert, C., Taylor, A., Travis, L., D'Orangeville, L.**
+[Link to Open Access Article](https://cdnsciencepub.com/doi/10.1139/er-2022-0122?utm_source=researchgate.net&utm_medium=article)
+:::

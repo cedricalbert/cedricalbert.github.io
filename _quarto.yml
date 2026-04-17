@@ -3,13 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "ResearchWebsite"
+  title: "Climate Change and Forest Ecosystems Lab"
   navbar:
+    background: "#1b4d3e" #navbar dark green!
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: research.qmd
+        text: Research
+      - href: team.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      - href: join.qmd
+        text: Join Us
 format:
   html:
     theme:

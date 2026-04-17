@@ -1,0 +1,32 @@
+---
+title: "Our Team"
+---
+## Principal Investigator
+
+::: {.person-record}
+![](images/cedricalbert_V3.jpg){.profile-photo}
+
+### Cédric Albert, PhD, RPF
+
+**Professor of Forest Management** [Email](mailto:cedric.albert@umoncton.ca) | [ResearchGate](https://www.researchgate.net/profile/Cedric-Albert)
+
+Welcome! I am an Assistant Professor at the École de foresterie, Université de Moncton (Edmundston). My research focuses on understanding how climate change is reshaping forests, with an emphasis on landscape-level forest management, spatial analytics, and data-driven modeling. I develop and apply tools to quantify climate impacts and support adaptive management strategies for resilient forest ecosystems across North America.
+:::
+
+---
+
+## PhD Students
+
+## Master Students
+
+## 
+
+::: {.person-record}
+![](images/student1.jpg){.profile-photo}
+### Student [Last Name]
+**MSc Student** Project: 
+:::
+
+---
+
+## Collaborators

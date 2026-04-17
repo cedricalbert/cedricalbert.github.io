@@ -1,11 +1,16 @@
 ---
-title: "ResearchWebsite"
+title: "Climate Change and Forest Ecosystems Lab"
+subtitle: "Understanding the impacts of climate change on forests through data science"
+page-layout: full
+about:
+  template: marquee
+  image: images/plt.jpg
 ---
 
-This is a Quarto website.
+Welcome to the **Climate Change and Forest Ecosystems Lab**. We are based at the **École de Foresterie de l'Université de Moncton Campus d'Edmundston**, where we bridge the gap between forest ecology and computational analytics. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Our mission is to quantify climate change impacts on forest ecosystems and develop adaptive management strategies that support the long-term sustainability of forest biomes across North America.
 
-```{r}
-1 + 1
-```
+<div style="text-align: center; margin-top: 5px;">
+  <img src="images/logo40hor.png" alt="Université de Moncton École de Foresterie" style="width: 500px;">
+</div>
