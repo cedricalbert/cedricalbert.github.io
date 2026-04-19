@@ -4,7 +4,7 @@ subtitle: "Understanding the impacts of climate change on forests through data s
 page-layout: full
 about:
   template: marquee
-  image: images/plt.jpg
+  image: images/CCFELOGO_3x3.png
 ---
 
 Welcome to the **Climate Change and Forest Ecosystems Lab**. We are based at the **École de Foresterie de l'Université de Moncton Campus d'Edmundston**, where we bridge the gap between forest ecology and computational analytics. 

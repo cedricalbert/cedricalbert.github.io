@@ -4,7 +4,9 @@ project:
 
 website:
   title: "Climate Change and Forest Ecosystems Lab"
+  favicon: images/CCFELOGO_025x025.png
   navbar:
+    logo: images/CCFELOGO_025x025.png
     background: "#1b4d3e" #navbar dark green!
     left:
       - href: index.qmd

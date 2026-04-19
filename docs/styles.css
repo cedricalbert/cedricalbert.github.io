@@ -1,6 +1,6 @@
 /* css styles */
 
-/* --- Publication / Marquee Specifics --- */
+/* --- Publication (publications.qmd) --- */
 /* Publication Card Styling */
 .publication-card {
   padding: 1.5rem;
@@ -54,7 +54,7 @@
 
 
 
-/* --- Team page / Marquee Specifics --- */
+/* --- Team page (team.qmd) --- */
 /* Center the container for the vertical list */
 .person-record {
   display: block;
@@ -91,7 +91,7 @@
 
 
 
-/* --- Home Page / Marquee Specifics --- */
+/* --- Home Page (index.qmd) --- */
 
 /* Make the title and subtitle larger and green */
 .quarto-title .title {
@@ -113,8 +113,11 @@ section.description, .about-contents {
 
 /* Make the 'marquee' image larger */
 .about-image {
-  width: 100% !important;
-  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  width: 45% !important;
+  max-height: 300px;
   object-fit: cover;
 }
 
