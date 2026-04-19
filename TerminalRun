@@ -17,3 +17,12 @@ system("git branch -M main")
 
 # --- Step 4: Push to Origin ---
 system("git push -u origin main")
+
+
+
+
+
+git status
+git add .
+git commit -m "Update logo and navbar for French/English version"
+git push
