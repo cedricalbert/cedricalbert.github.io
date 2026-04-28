@@ -1,0 +1,63 @@
+---
+title: "Join the Lab"
+---
+
+::: {.join-page-content}
+
+## Get in Touch
+
+If you are interested in forest management, climate change adaptation, or spatial analytics, we would love to hear from you. 
+
+::: {.person-record}
+### Cédric Albert, PhD, RPF
+**Assistant Professor** [Email: cedric.albert@umoncton.ca](mailto:cedric.albert@umoncton.ca)
+:::
+
+***
+
+## Programs at Université de Moncton
+
+We are always looking for motivated students to join the École de foresterie at the Edmundston campus. The Université de Moncton is a **French-language university**; therefore, candidates are expected to have functional proficiency in French for presentations, reports, exams, and interactions with other students. However, research activities and publications may be conducted in English, according to the candidate’s preference.
+
+::: {.degree-card}
+### Bachelor of Management in Forest Resources
+Our undergraduate program provides a strong foundation in forest ecology, geomatics, and sustainable management. 
+
+<a href="https://www.umoncton.ca/umce-foresterie/" class="btn-link">Learn More</a>
+:::
+
+::: {.degree-card}
+### Master in Forest Sciences (M.Sc.F.)
+We offer thesis-based Master's projects focusing on climate change impacts and adaptive silviculture. Students benefit from close proximity to the Acadian forest and strong ties with industrial partners.
+
+<a href="https://www.umoncton.ca/umce-foresterie/sites/umce-foresterie.prod.umoncton.ca/files/wf/brocmscf.pdf" class="btn-link">Learn More</a>
+:::
+
+***
+
+## Collaborating Universities
+
+Research is often a multi-institutional effort. We co-supervise PhD students registered at our partner institutions. You can still reach out to Dr. Albert to arrange a project and a supervision team.
+
+::: {.callout-note icon=false}
+### PhD in Forestry
+Prospective PhD students can pursue doctoral research under the co-supervision of Dr. Albert while registered any other Universities. We already have collaborators at:
+
+* **Université Laval** (FFGG)
+* **University of New Brunswick** (ForEM)
+:::
+
+***
+
+## How to Apply
+
+::: {.callout-important}
+### Application Instructions
+If you are interested in a position, please email **Dr. Albert** with the following:
+
+1. A brief **statement of interest**
+2. Your **CV**.
+3. A copy of your **unofficial transcripts**.
+:::
+
+:::
