@@ -24,5 +24,13 @@ system("git push -u origin main")
 
 git status
 git add .
-git commit -m "Update logo and navbar for French/English version"
+git commit -m "Update logo"
 git push
+
+
+render error: The Fix: Move the file back
+Open your file explorer to D:\OneDrive - Université de Moncton\ResearchWebsite\.
+
+Look inside the docs folder.
+
+If you see join.qmd (and possibly others like index.qmd or research.qmd) inside docs, move them back out to the main ResearchWebsite folder.

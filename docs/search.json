@@ -18,28 +18,14 @@
     "href": "team.html#phd-students",
     "title": "Our Team",
     "section": "PhD Students",
-    "text": "PhD Students"
+    "text": "PhD Students\nInformation coming soon."
   },
   {
     "objectID": "team.html#master-students",
     "href": "team.html#master-students",
     "title": "Our Team",
     "section": "Master Students",
-    "text": "Master Students"
-  },
-  {
-    "objectID": "team.html#section",
-    "href": "team.html#section",
-    "title": "Our Team",
-    "section": "",
-    "text": "### Student [Last Name] MSc Student Project:"
-  },
-  {
-    "objectID": "team.html#collaborators",
-    "href": "team.html#collaborators",
-    "title": "Our Team",
-    "section": "Collaborators",
-    "text": "Collaborators"
+    "text": "Master Students\n\n\n\nStudent [Last Name]\nMSc Student Project: Description of the research project goes here."
   },
   {
     "objectID": "publications.html",
@@ -82,5 +68,68 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "collab.html",
+    "href": "collab.html",
+    "title": "Partners",
+    "section": "",
+    "text": "The NHRI is a primary partner in our efforts to develop adaptive silviculture tools. With NHRI, we investigate the potential decline of deciduous tree species in the Acadian forest of New Brunswick under climate change and work toward solutions for the forest industry.\nVisit Website\n\n\n\n\n\n  \n\n\n\nOuranos is a key research partner that provides high-quality future climate data derived from a range of widely accepted climate models, supporting our work in climate change impact assessment and adaptation planning.\nVisit Website"
+  },
+  {
+    "objectID": "collab.html#industry-partners",
+    "href": "collab.html#industry-partners",
+    "title": "Partners",
+    "section": "",
+    "text": "The NHRI is a primary partner in our efforts to develop adaptive silviculture tools. With NHRI, we investigate the potential decline of deciduous tree species in the Acadian forest of New Brunswick under climate change and work toward solutions for the forest industry.\nVisit Website\n\n\n\n\n\n  \n\n\n\nOuranos is a key research partner that provides high-quality future climate data derived from a range of widely accepted climate models, supporting our work in climate change impact assessment and adaptation planning.\nVisit Website"
+  },
+  {
+    "objectID": "collab.html#university-partners",
+    "href": "collab.html#university-partners",
+    "title": "Partners",
+    "section": "University Partners",
+    "text": "University Partners\n\n\n  \n\n\nUniversité Laval - Faculté de foresterie, de géographie et de géomatique\nIn collaboration with Dr. Loïc D’Orangeville, we conduct research on tree species migration and seedling performance under climate change. We also collaborate with Dr. Guillaume Moreau on maple syrup production, silviculture, and ecology under climate change.\nVisit Website\n\n\n\n\n\n  \n\n\nUniversity of New Brunswick - Forestry & Environmental Management\nIn collaboration with Dr. Anthony Taylor, we conduct research on the adaptation of landscape-level forest planning to climate change.\nVisit Website"
+  },
+  {
+    "objectID": "collab.html#funding-partners",
+    "href": "collab.html#funding-partners",
+    "title": "Partners",
+    "section": "Funding Partners",
+    "text": "Funding Partners\n\n\n  \n\n\nResearch New Brunswick\nResearch NB has supported many of our forest research projects in New Brunswick. It is a reliable and essential funding partner of this lab.\nVisit Website"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are interested in forest management, climate change adaptation, or spatial analytics, we would love to hear from you.\n\n\nAssistant Professor Email: cedric.albert@umoncton.ca\n\n\n\n\n\nWe are always looking for motivated students to join the École de foresterie at the Edmundston campus. The Université de Moncton is a French-language university; therefore, candidates are expected to have functional proficiency in French for presentations, reports, exams, and interactions with other students. However, research activities and publications may be conducted in English, according to the candidate’s preference.\n\n\nOur undergraduate program provides a strong foundation in forest ecology, geomatics, and sustainable management.\nLearn More\n\n\n\nWe offer thesis-based Master’s projects focusing on climate change impacts and adaptive silviculture. Students benefit from close proximity to the Acadian forest and strong ties with industrial partners.\nLearn More\n\n\n\n\n\nResearch is often a multi-institutional effort. We co-supervise PhD students registered at our partner institutions. You can still reach out to Dr. Albert to arrange a project and a supervision team.\n\n\n\n\n\n\nPhD in Forestry\n\n\n\nProspective PhD students can pursue doctoral research under the co-supervision of Dr. Albert while registered any other Universities. We already have collaborators at:\n\nUniversité Laval (FFGG)\nUniversity of New Brunswick (ForEM)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplication Instructions\n\n\n\nIf you are interested in a position, please email Dr. Albert with the following:\n\nA brief statement of interest\nYour CV.\nA copy of your unofficial transcripts."
+  },
+  {
+    "objectID": "join.html#get-in-touch",
+    "href": "join.html#get-in-touch",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are interested in forest management, climate change adaptation, or spatial analytics, we would love to hear from you.\n\n\nAssistant Professor Email: cedric.albert@umoncton.ca"
+  },
+  {
+    "objectID": "join.html#programs-at-université-de-moncton",
+    "href": "join.html#programs-at-université-de-moncton",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "We are always looking for motivated students to join the École de foresterie at the Edmundston campus. The Université de Moncton is a French-language university; therefore, candidates are expected to have functional proficiency in French for presentations, reports, exams, and interactions with other students. However, research activities and publications may be conducted in English, according to the candidate’s preference.\n\n\nOur undergraduate program provides a strong foundation in forest ecology, geomatics, and sustainable management.\nLearn More\n\n\n\nWe offer thesis-based Master’s projects focusing on climate change impacts and adaptive silviculture. Students benefit from close proximity to the Acadian forest and strong ties with industrial partners.\nLearn More"
+  },
+  {
+    "objectID": "join.html#collaborating-universities",
+    "href": "join.html#collaborating-universities",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "Research is often a multi-institutional effort. We co-supervise PhD students registered at our partner institutions. You can still reach out to Dr. Albert to arrange a project and a supervision team.\n\n\n\n\n\n\nPhD in Forestry\n\n\n\nProspective PhD students can pursue doctoral research under the co-supervision of Dr. Albert while registered any other Universities. We already have collaborators at:\n\nUniversité Laval (FFGG)\nUniversity of New Brunswick (ForEM)"
+  },
+  {
+    "objectID": "join.html#how-to-apply",
+    "href": "join.html#how-to-apply",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "Application Instructions\n\n\n\nIf you are interested in a position, please email Dr. Albert with the following:\n\nA brief statement of interest\nYour CV.\nA copy of your unofficial transcripts."
   }
 ]

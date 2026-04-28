@@ -90,6 +90,66 @@
 
 
 
+/* --- Collaborators & Partners Section (collab.qmd) --- */
+
+.collaboration-record {
+  display: block;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 20px;
+  clear: both;
+}
+
+.partner-logo img {
+  display: inline-block;
+  max-width: 280px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.partner-logo img:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.collaboration-record h3 {
+  color: #1b4d3e;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Button Link for better visibility */
+.btn-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 2px solid #1b4d3e;
+  color: #1b4d3e !important;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.btn-link:hover {
+  background-color: #1b4d3e;
+  color: white !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Ensures the text description stays readable on wide screens */
+.collaboration-record p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+
 
 /* --- Home Page (index.qmd) --- */
 
@@ -119,6 +179,48 @@ section.description, .about-contents {
   width: 45% !important;
   max-height: 300px;
   object-fit: cover;
+}
+
+
+
+
+
+/* --- Join Page (join.qmd) --- */
+
+/* Make the body text on this page match your home page scale */
+.join-page-content {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+/* Degree Program Cards (reusing your publication-card style) */
+.degree-card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #1b4d3e; 
+  background-color: #fcfcfc;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.degree-card h3 {
+  margin-top: 0;
+  color: #1b4d3e;
+}
+
+.callout-body-container {
+  font-size: inherit !important; 
+}
+
+/* Targets the header/title inside the callout */
+.callout-title-container {
+  font-size: inherit !important;
+  font-weight: bold;
+}
+
+
+.join-page-content .callout {
+  font-size: 1.2rem;
 }
 
 
