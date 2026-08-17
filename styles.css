@@ -160,6 +160,42 @@
   font-weight: bold;
 }
 
+/* Base badge styling */
+.badge, 
+.badge-time, 
+.supervision-badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Specific badge colors */
+.badge {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.badge-time {
+  background-color: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+}
+
+.supervision-badge {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+
+
 
 
 /* --- Collaborators & Partners Section (collab.qmd) --- */

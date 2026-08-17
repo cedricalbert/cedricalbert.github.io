@@ -18,14 +18,33 @@ Welcome! I am an Assistant Professor at the École de foresterie, Université de
 
 ## PhD Students
 
-*Information coming soon.*
+::: {.person-record}
+![](images/student1.jpg){.profile-photo}
+
+### Joanie Dubé
+[Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
+**PhD Student** Project: Description of the research project goes here.
+:::
+
+::: {.person-record}
+![](images/student1.jpg){.profile-photo}
+
+### Nicolas Girard
+[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
+**PhD Student** Project: Description of the research project goes here.
+:::
+
 
 ## Master Students
 
 ::: {.person-record}
 ![](images/student1.jpg){.profile-photo}
 
-### Student [Last Name]
+### Louison Mvika
+[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
 **MSc Student** Project: Description of the research project goes here.
 :::
 

@@ -4,6 +4,13 @@ title: "Publications"
 
 Manage and explore our latest research on forest dynamics, climate adaptation, and landscape modeling.
 
+## 2026
+
+::: {.publication-card}
+**Évaluation des conflits d’usage entre agriculture et forêt dans le nord-est du Nouveau-Brunswick à l’aide des séries chronologiques d’images satellitaires** *The Forestry Chronicle* **Kikpa Bio, R., Albert, C.** 
+[Link to Open Access Article](https://pubs.cif-ifc.org/doi/abs/10.5558/tfc2026-019)
+:::
+
 ## 2025
 
 ::: {.publication-card}

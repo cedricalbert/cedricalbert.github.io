@@ -33,6 +33,13 @@ We offer thesis-based Master's projects focusing on climate change impacts and a
 <a href="https://www.umoncton.ca/umce-foresterie/sites/umce-foresterie.prod.umoncton.ca/files/wf/brocmscf.pdf" class="btn-link">Learn More</a>
 :::
 
+::: {.degree-card}
+### Doctorat in Life Sciences (Ph.D.)
+We offer thesis-based doctoral projects focused on forestry research, including climate change impacts, forest management, and adaptive silviculture. The Ph.D. program also provides opportunities to supervise and collaborate with students working on applied forestry projects.
+
+<a href="https://www.umoncton.ca/node/341?programme=241" class="btn-link">Learn More</a>
+:::
+
 ***
 
 ## Collaborating Universities
@@ -41,7 +48,7 @@ Research is often a multi-institutional effort. We co-supervise PhD students reg
 
 ::: {.callout-note icon=false}
 ### PhD in Forestry
-Prospective PhD students can pursue doctoral research under the co-supervision of Dr. Albert while registered any other Universities. We already have collaborators at:
+Prospective PhD or MScF students can also pursue doctoral or master research under the co-supervision of Dr. Albert while registered any other Universities. We already have collaborators at:
 
 * **Université Laval** (FFGG)
 * **University of New Brunswick** (ForEM)
