@@ -1,0 +1,527 @@
+---
+title: "Plan de rédaction des résultats scientifiques"
+subtitle: "Pour que vos résultats ne restent pas... sans suite"
+author: "Cédric Albert"
+date: today
+format:
+  revealjs:
+    theme: [simple]
+    transition: slide
+    slide-number: true
+    incremental: false
+    footer: "Rédaction scientifique — Résultats"
+    logo: ""
+    chalkboard: true
+    center-title-slide: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+# Ce chunk prépare les couleurs, le thème et les données simulées
+# utilisées dans les figures ci-dessous. Rien de tout ça ne s'affiche
+# à l'écran (echo: false) : les étudiants ne voient que le résultat.
+library(ggplot2)
+
+set.seed(42)
+
+pal_sites <- c("Site 1" = "#74c69d", "Site 2" = "#40916c", "Site 3" = "#1b4332")
+
+theme_set(
+  theme_minimal(base_size = 16) +
+    theme(
+      plot.title = element_text(face = "bold"),
+      legend.position = "none"
+    )
+)
+```
+
+```{r}
+#| label: sim-arbres
+# Données simulées (à visée pédagogique) : diamètre de 240 semis
+# répartis sur 3 sites de coupe partielle, cohérent avec l'exemple
+# "12.4 +/- 1.8 cm (n = 240)" utilisé plus loin dans le texte.
+sites        <- c("Site 1", "Site 2", "Site 3")
+traitements  <- c("Coupe légère", "Coupe modérée", "Coupe forte")
+site_means   <- c(11.6, 12.4, 13.9)
+site_sds     <- c(1.6, 1.8, 2.0)
+n_par_site   <- 80
+
+df_arbres <- do.call(rbind, lapply(seq_along(sites), function(i) {
+  data.frame(
+    site      = sites[i],
+    diametre  = rnorm(n_par_site, mean = site_means[i], sd = site_sds[i])
+  )
+}))
+
+df_stats <- aggregate(diametre ~ site, df_arbres, function(x) c(moyenne = mean(x), et = sd(x)))
+df_stats <- do.call(data.frame, df_stats)
+names(df_stats) <- c("site", "moyenne", "et")
+```
+
+```{r}
+#| label: sim-croissance
+# Croissance simulée sur 5 saisons, taux différent par site.
+saisons <- 1:5
+taux_croissance <- c(1.9, 2.1, 2.5)
+diam_depart <- 3.5
+
+df_croissance <- do.call(rbind, lapply(seq_along(sites), function(i) {
+  data.frame(
+    site           = sites[i],
+    saison         = saisons,
+    diametre_moyen = diam_depart + taux_croissance[i] * (saisons - 1) + rnorm(5, 0, 0.15)
+  )
+}))
+```
+
+## Toujours trop de résultats! {background-color="#1b2a4a"}
+
+::: {style="font-size: 1.4em; color: white; text-align: center; margin-top: 1em;"}
+« Des résultats ? J'en ai plein.
+Je connais des milliers de choses qui **ne fonctionnent pas.** »
+:::
+
+::: {style="text-align: right; color: #cfd8ea;"}
+— Thomas A. Edison
+:::
+
+::: {.notes}
+Ouverture volontairement décalée. Laissez planer 2-3 secondes de silence après avoir lu la citation. Demandez : "À votre avis, pourquoi je commence un cours sur les résultats scientifiques avec un échec ?" Récoltez 2-3 réponses avant d'enchaîner. L'idée : même une expérience "ratée" est un résultat qui mérite d'être écrit correctement.
+:::
+
+---
+
+## Aujourd'hui {.smaller}
+
+::: {.incremental}
+- Ce qu'on **met** (et ce qu'on ne met PAS) dans une section résultats
+- Comment **organiser** ses données sans perdre son lecteur
+- Le piège des **statistiques et décimales**
+- Comment **présenter** ces mêmes résultats à l'oral
+- Erreurs classiques
+:::
+
+::: {.notes}
+À la fin, leurs étudiants doivent être capables de regarder un jeu de données et de savoir QUOI en dire, dans QUEL ordre, et QUOI laisser de côté.
+:::
+
+# Partie 1 — Écrire ses résultats
+
+## La section résultats : le cœur du travail
+
+::: {.incremental}
+- L'**introduction** et la section **matériel-méthodes** expliquent le *pourquoi* et le *comment*
+- La **discussion** explique ce que ça *signifie*
+- Les **résultats**, eux, sont la nouveauté brute que vous apportez au monde
+:::
+
+::: {.fragment}
+> Sans résultats solides et clairs, tout le reste de la recherche s'effondre. 💩
+:::
+
+::: {.notes}
+Insistez : les résultats sont souvent la section la PLUS COURTE de l'article — justement parce qu'un bon matériel-méthodes et une bonne discussion évitent la redite.
+:::
+
+---
+
+## Les deux ingrédients
+
+::: {.columns}
+::: {.column width="50%" .fragment}
+**1. La vue d'ensemble**
+
+Le portrait général de vos expériences, **sans répéter** les détails méthodologiques déjà donnés ailleurs.
+:::
+
+::: {.column width="50%" .fragment}
+**2. Les données elles-mêmes**
+
+Présentées **au passé**, organisées, sélectionnées.
+:::
+:::
+
+::: {.fragment style="margin-top: 1em;"}
+🌲 **Exemple** : "Nous avons suivi la croissance en diamètre de 240 semis d'épinette noire sur trois sites de coupe partielle pendant cinq saisons de croissance." *(vue d'ensemble — pas besoin de réexpliquer ici comment vous avez mesuré chaque tige)*
+:::
+
+::: {.notes}
+Piège fréquent chez les étudiants : ils recommencent à décrire leur protocole dans les résultats "au cas où le lecteur aurait oublié". Non. On avance.
+:::
+
+---
+
+## Comment organiser ? Trois façons {.smaller}
+
+::: {.incremental}
+1. **Chronologique** — utile pour un suivi dans le temps (ex. : croissance d'une plantation sur 10 ans)
+2. **Par thème** — avec des sous-titres qui font écho à votre méthodo (ex. : *Survie*, *Croissance en hauteur*, *Composition des espèces*)
+3. **Par importance décroissante** — on commence par le résultat qui change vraiment la donne
+:::
+
+::: {.fragment}
+🌲 Une étude sur l'effet du reboisement après feu pourrait suivre l'ordre : **régénération naturelle → régénération assistée → mortalité par site**, plutôt qu'un fouillis chronologique de visites de terrain.
+:::
+
+::: {.notes}
+Demandez-leur : si vous étudiiez l'effet de la martelage sur la régénération, quel ordre choisiriez-vous et pourquoi ? Faites lever la main pour chaque option, en 20 secondes, pas plus — on ne s'attarde pas.
+:::
+
+---
+
+## Exemple : organisation chronologique {.smaller}
+
+```{r}
+#| label: plot-chrono
+#| fig-width: 8
+#| fig-height: 4.3
+#| fig-align: center
+ggplot(df_croissance, aes(x = saison, y = diametre_moyen, color = site, group = site)) +
+  geom_line(linewidth = 1.3) +
+  geom_point(size = 3) +
+  scale_color_manual(values = pal_sites) +
+  scale_x_continuous(breaks = saisons) +
+  labs(
+    title = "Croissance en diamètre selon le site (n = 80/site)",
+    x = "Saison de croissance",
+    y = "Diamètre moyen (cm)",
+    color = "Site"
+  ) +
+  theme(legend.position = "right")
+```
+
+::: {.notes}
+Cette figure EST l'organisation chronologique : elle raconte une évolution dans le temps, exactement le type de résultat qui devrait suivre l'ordre des saisons plutôt qu'un ordre arbitraire.
+:::
+
+---
+
+## Représentatif, pas répétitif {background-color="#2a3b5c"}
+
+::: {style="color: white; font-size: 1.2em;"}
+« Le fou amasse les faits ;
+le sage les **choisit**. »
+:::
+
+::: {style="text-align: right; color: #cfd8ea;"}
+— John Wesley Powell, géologue (1888)
+:::
+
+::: {.notes}
+Vous n'avez pas à montrer les 240 semis un par un. Une moyenne, un écart-type, un graphique — voilà le "predigestion" que veut le lecteur. (ex. : un mémoire truffé de 40 tableaux quasi identiques).
+:::
+
+---
+
+## Représentatif, pas répétitif (Figure) {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+```{r}
+#| label: plot-jitter
+#| fig-width: 4.3
+#| fig-height: 4
+#| fig-align: center
+ggplot(df_arbres, aes(x = site, y = diametre, color = site)) +
+  geom_jitter(width = 0.15, alpha = 0.35, size = 1.4) +
+  geom_boxplot(fill = NA, linewidth = 0.9, outlier.shape = NA) +
+  scale_color_manual(values = pal_sites) +
+  labs(title = "240 mesures individuelles", x = NULL, y = "Diamètre (cm)")
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+#| label: plot-clean
+#| fig-width: 4.3
+#| fig-height: 4
+#| fig-align: center
+ggplot(df_stats, aes(x = site, y = moyenne, fill = site)) +
+  geom_col(width = 0.6) +
+  geom_errorbar(aes(ymin = moyenne - et, ymax = moyenne + et), width = 0.2, linewidth = 0.9) +
+  scale_fill_manual(values = pal_sites) +
+  labs(title = "Résumé : moyenne ± écart-type", x = NULL, y = "Diamètre (cm)")
+```
+:::
+:::
+
+::: {.notes}
+À gauche : les 240 points bruts — c'est ce que Powell appelait "amasser les faits". À droite : la même information, choisie et digérée. Demandez : laquelle des deux enverriez-vous à votre directeur de recherche s'il ne pouvait regarder qu'une seule image 5 secondes ?
+:::
+
+---
+
+## Exemple : trop vs juste assez {.smaller}
+
+::: {.columns}
+::: {.column width="50%" .fragment}
+### ❌ Trop
+*"L'arbre 1 mesurait 12,3 cm ; l'arbre 2, 12,1 cm ; l'arbre 3, 11,9 cm... [237 arbres plus tard]"*
+:::
+
+::: {.column width="50%" .fragment}
+### ✅ Juste assez
+*"Le diamètre moyen des semis a atteint 12,4 ± 1,8 cm après cinq saisons (n = 240 ; tableau 2)."*
+:::
+:::
+
+::: {.fragment}
+🎯 Une donnée négative compte aussi : *"Aucune différence de survie n'a été observée entre les trois types de préparation de terrain (p = 0,61)."* — savoir ce qui **n'a pas** d'effet est une information utile.
+:::
+
+---
+
+## Où mettre quoi ? {.smaller}
+
+::: {.incremental}
+- **Une ou deux valeurs isolées** → dans le **texte**
+- **Des séries de données répétitives** → dans un **tableau ou un graphique**
+- Le texte **commente**, il ne **répète pas** le tableau
+:::
+
+::: {.fragment}
+*"La hauteur moyenne des plants variait selon le traitement de scarifiage (tableau 1)."*
+plutôt que
+*"Le tableau 1 montre clairement que la hauteur moyenne des plants variait selon le traitement de scarifiage, comme on peut le voir dans le tableau 1."*
+:::
+
+::: {.notes}
+Faites-les rire un peu ici — le deuxième exemple est volontairement absurde et redondant (le mot "tableau 1" y apparaît deux fois). C'est le genre de phrase qu'on écrit tous en premier jet, à 23h, avant la date de tombée.
+:::
+
+---
+
+## Le même résultat, en tableau {.smaller}
+
+| Site   | Traitement    |  n | Diamètre moyen (cm) | Écart-type |
+|:-------|:--------------|---:|---------------------:|-----------:|
+| Site 1 | Coupe légère  | 80 | 11,6                 | 1,6        |
+| Site 2 | Coupe modérée | 80 | 12,4                 | 1,8        |
+| Site 3 | Coupe forte   | 80 | 13,9                 | 2,0        |
+
+::: {.fragment}
+Dans le texte, on ne répète pas ces six chiffres : *"Le diamètre moyen augmentait avec l'intensité de la coupe (tableau 1)."*
+:::
+
+::: {.notes}
+C'est exactement le genre de tableau qui va dans la section résultats. Trois lignes, pas 240 — représentatif, pas répétitif.
+:::
+
+---
+
+## Le même résultat, en figure
+
+```{r}
+#| label: plot-tableau-fig
+#| fig-width: 8
+#| fig-height: 4.3
+#| fig-align: center
+ggplot(df_stats, aes(x = site, y = moyenne, fill = site)) +
+  geom_col(width = 0.55) +
+  geom_errorbar(aes(ymin = moyenne - et, ymax = moyenne + et), width = 0.15, linewidth = 1) +
+  scale_fill_manual(values = pal_sites) +
+  labs(
+    title = "Diamètre moyen selon l'intensité de coupe",
+    x = NULL, y = "Diamètre (cm)"
+  )
+```
+
+::: {.notes}
+Même donnée que le tableau précédent, mais la tendance (plus la coupe est forte, plus la croissance est rapide) se voit en une seconde, sans lire un seul chiffre. C'est exactement l'argument central de la Partie 2 : à l'oral, préférez toujours ceci au tableau.
+:::
+
+---
+
+## Les statistiques c'est compliquées ! {background-color="#1b2a4a"}
+
+::: {style="color: white; font-size: 1.15em; text-align:center;"}
+« 33,3 % des souris ont guéri.
+33,3 % sont restées inchangées.
+La troisième souris... s'est **sauvée**. »
+:::
+
+::: {.notes}
+Citation classique tirée d'un éditeur de revue. Message sérieux derrière la blague : avec un échantillon de 3, aucun pourcentage n'a de sens.
+:::
+
+---
+
+## Le piège des décimales
+
+::: {.fragment}
+Si 17 arbres sur 59 ont survécu à une sécheresse...
+:::
+
+::: {.fragment}
+❌ *"28,8136 % des arbres ont survécu."*
+:::
+
+::: {.fragment}
+✅ *"29 % des arbres ont survécu."*
+:::
+
+::: {.fragment style="margin-top: 1em; font-style: italic;"}
+Ce n'est pas parce que votre calculatrice affiche huit chiffres qu'il faut tous les écrire.
+:::
+
+::: {.notes}
+Faites le calcul en direct sur le tableau si possible (17/59 = 0.28813...). Le point : la fausse précision donne une illusion de rigueur scientifique, alors qu'elle trahit plutôt qu'on n'a pas réfléchi à la taille réelle de l'échantillon.
+:::
+
+---
+
+## Clarté avant élégance {background-color="#2a3b5c"}
+
+::: {style="color: white; font-size: 1.3em; text-align: center;"}
+« Si vous voulez décrire la vérité,
+laissez l'élégance aux stylistes »
+:::
+
+::: {style="text-align: right; color: #cfd8ea;"}
+— Albert Einstein
+:::
+
+::: {.notes}
+le rôle d'un auteur n'est pas de faire de belles phrases complexes, mais d'exposer la réalité de manière brute, exacte et sans détour. Chercher à rendre le texte trop « élégant » ou sophistiqué risque d'embrouiller le message, d'introduire des ambiguïtés ou de masquer ce que disent réellement les données.
+:::
+
+---
+
+## Attention aux pronoms flottants (ambigu)
+
+::: {style="border-left: 4px solid #c0392b; padding-left: 1em;"}
+*"La jambe gauche était engourdie par moments... Le deuxième jour, le genou allait mieux, et le troisième jour, **il** avait complètement disparu."*
+:::
+
+::: {.fragment}
+De quoi parle ce "il" ? De l'engourdissement ? Du genou ? Le lecteur devine — et devine mal.
+:::
+
+::: {.notes}
+Exemple réel tiré d'un manuscrit médical. Correction: « Le deuxième jour, le genou allait mieux, et le troisième jour, l'engourdissement avait complètement disparu. »
+:::
+
+---
+
+## Et le matériel supplémentaire ?
+
+::: {.incremental}
+- Données brutes, tableaux étendus, figures additionnelles → souvent déposés **en ligne**, hors du corps du texte
+- Les normes varient énormément d'une revue, d'un programme ou d'un directeur à l'autre
+- **Vérifiez toujours** les exigences avant de tout entasser en annexe
+:::
+
+# Partie 2 — Présenter ses résultats à l'oral
+
+## Un jeu de données ≠ une bonne diapositive
+
+::: {.fragment}
+Ce qui fonctionne dans un tableau d'article **ne fonctionne presque jamais** projeté tel quel sur un écran.
+:::
+
+::: {.fragment}
+🌲 Un tableau de 12 lignes × 8 colonnes de mesures dendrométriques = personne ne le lit, tout le monde décroche.
+:::
+
+::: {.notes}
+Transition naturelle : "vous savez maintenant écrire vos résultats — reste à les présenter sans vider la salle."
+:::
+
+---
+
+## La preuve, en direct {.smaller}
+
+::: {.columns}
+::: {.column style="width: 55%; font-size: 0.42em;" .fragment}
+```{r}
+#| label: table-cluttered
+set.seed(7)
+df_encombre <- data.frame(
+  Arbre           = 1:12,
+  Site            = sample(sites, 12, replace = TRUE),
+  DHP_cm          = round(rnorm(12, 12, 2), 1),
+  Hauteur_m       = round(rnorm(12, 8, 1.2), 1),
+  Volume_dm3      = round(rnorm(12, 45, 10), 1),
+  Etat_sanitaire  = sample(c("Bon", "Moyen", "Faible"), 12, replace = TRUE),
+  Annee           = 2024,
+  Releve          = sample(c("Terrain A", "Terrain B"), 12, replace = TRUE)
+)
+knitr::kable(df_encombre)
+```
+:::
+
+::: {.column width="45%" .fragment}
+```{r}
+#| label: plot-clean2
+#| fig-width: 4.3
+#| fig-height: 4
+#| fig-align: center
+ggplot(df_stats, aes(x = site, y = moyenne, fill = site)) +
+  geom_col(width = 0.6) +
+  geom_errorbar(aes(ymin = moyenne - et, ymax = moyenne + et), width = 0.2, linewidth = 0.9) +
+  scale_fill_manual(values = pal_sites) +
+  labs(title = "La même idée, en 2 secondes", x = NULL, y = "Diamètre (cm)")
+```
+:::
+:::
+
+::: {.notes}
+
+:::
+
+---
+
+## Trois réflexes pour une présentation vivante {.smaller}
+
+::: {.incremental}
+1. **Une idée par diapositive** — pas un paragraphe entier à l'écran
+2. **Le graphique remplace le tableau** — une tendance se *voit*, elle ne se *lit* pas
+3. **Racontez le résultat avant de le montrer** — "Et là, surprise : la parcelle brûlée a mieux régénéré que la parcelle coupée" *puis* le graphique
+:::
+
+::: {.notes}
+Encouragez à essayer la technique du "cliffhanger" : annoncer le résultat surprenant avant de dévoiler la figure, exactement comme on garderait le suspense dans une histoire.
+:::
+
+---
+
+## Vrai ou faux 
+
+::: {.incremental}
+- On peut lire son tableau de résultats à voix haute pendant la présentation → **Faux**
+- Une figure doit pouvoir se comprendre sans que vous parliez → **Vrai**
+- Il faut présenter TOUTES ses données pour être crédible → **Faux**
+:::
+
+::: {.notes}
+
+:::
+
+---
+
+## Petit résumé {.smaller}
+
+::: {.incremental}
+- Vue d'ensemble d'abord, données ensuite
+- Passé, organisation logique, pas de répétition de la méthode
+- Représentatif > exhaustif
+- Texte pour 1-2 valeurs, tableau/graphique pour le reste
+- Pas de fausse précision (décimales inutiles)
+- Le texte commente le tableau, il ne le répète pas
+- Antécédents clairs pour "il", "cela", "celui-ci"
+- À l'oral : une idée par diapositive, le graphique plutôt que le tableau brut
+:::
+
+---
+
+## Merci ! {.center}
+
+::: {style="text-align:center; margin-top: 2em;"}
+Basé sur : Day, R.A. & Gastel, B. *How to Write and Publish a Scientific Paper*, 9ᵉ édition, chapitre 12.
+
+Questions ?
+:::

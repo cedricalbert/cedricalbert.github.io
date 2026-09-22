@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Climate Change and Forest Ecosystems Lab"
   favicon: images/CCFELOGO_025x025.png
@@ -21,6 +20,8 @@ website:
         text: Publications
       - href: join.qmd
         text: Join Us
+      - href: lectures.qmd
+        text: Lectures
 format:
   html:
     theme:
@@ -28,6 +29,4 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
 

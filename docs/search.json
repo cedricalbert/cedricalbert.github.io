@@ -18,7 +18,7 @@
     "href": "team.html#phd-students",
     "title": "Our Team",
     "section": "PhD Students",
-    "text": "PhD Students\n\n\n\nJoanie Dubé\nSupervision 2026 - Ongoing\nPhD Student Project: Description of the research project goes here.\n\n\n\n\n\nNicolas Girard\nCo-Supervision 2026 - Ongoing\nPhD Student Project: Description of the research project goes here."
+    "text": "PhD Students\n\n\n\nJoanie Dubé\nSupervision 2026 - Ongoing\nPhD Student Bio: Joanie is a doctoral researcher at the École de foresterie, where she is pursuing a PhD in Life Sciences at Université de Moncton. As part of the TransX project, she studies the performance of tree populations originating from different regions of North America and transplanted along a climatic gradient as part of an assisted migration approach. Her research focuses on growth, survival, and functional traits to better understand the capacity of tree populations to adapt to new climatic conditions. This knowledge will contribute to the development of silvicultural strategies adapted to climate change. Originally from Edmundston, New Brunswick, Joanie holds a Bachelor of Science in Biology from Université de Moncton and a Master’s degree in Environmental Sciences from the Université du Québec à Montréal. She has more than 10 years of experience in ecology and environmental project management, particularly in wildlife conservation, ecosystem management, and land-use planning. She also teaches wildlife ecology at Université de Moncton.\n\n\n\n\n\nNicolas Girard\nCo-Supervision 2026 - Ongoing\nPhD Student Bio: Originally from the Lac-Saint-Jean region of Quebec, Nicolas obtained his BSc in Forest Management and MSc in Forest Sciences from the Université de Moncton. His research focuses on ecological forestry under climate change, with a particular interest in using forest modelling and decision-support systems to translate natural disturbance regimes into practical management strategies at the landscape level. Before beginning his PhD at UNB, he worked as a professional forester managing the Université de Moncton’s Experimental Forest and teaching forestry field courses. In his spare time, Nicolas enjoys fishing, gaming, and listening to 80s rock music."
   },
   {
     "objectID": "team.html#master-students",
@@ -28,39 +28,25 @@
     "text": "Master Students\n\n\n\nLouison Mvika\nCo-Supervision 2026 - Ongoing\nMSc Student Project: Description of the research project goes here."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Projects",
     "section": "",
-    "text": "Manage and explore our latest research on forest dynamics, climate adaptation, and landscape modeling."
+    "text": "Navigate through our active research initiatives using the tabs below.\n\nTransXThiRSTALERTCLIMCON\n\n\n\nTransborder experimental assessment of warming vulnerability in northeastern tree species and their assisted migration potential\n\n\n\n\nProject Overview\nThe TransX project addresses the risks posed by climate change to our northern forests. By evaluating tree species and provenances across a large warming gradient, we aim to identify the genetic stock that will maintain and improve productivity and ensure the resilience of the overall wood supply in Eastern Canada and the US.\n\nData Status: Collection Ongoing\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Funded\n\n\n\nPartners & Links\n\nProject Lead Website\nSilva21 Research Portal\n\n\n\n\n\n\n\nFigure: Distribution of TransX experimental sites.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Assess the warming tolerance of key natural hardwood and softwood species and populations to inform adaptive silviculture strategies.\nObjective 2: Assess the cold tolerance of southern populations to inform assisted migration and changes in seed transfer zones.\nObjective 3: Quantify genetic control of growth and survival across temperature range for well-known improved progenies.\n\n\n\n\n\n\nLarge-scale experimental assessment of pre-commercial thinning to reduce the vulnerability of drought\n\n\n\n\nProject Overview\nThe ThiRST experiment, established in 2022, is a silvicultural study designed to evaluate whether pre-commercial thinning can help mitigate drought-related stress in white spruce stands. This question is increasingly relevant for the forestry sector, as projections indicate a rise in both the frequency and intensity of drought events, with potential impacts on the growth and yield of commercially important softwood species. By reducing stand density, pre-commercial thinning may improve water availability to individual trees and enhance their resilience. The trial is located in the Black Brook district of New Brunswick on land managed by J.D. Irving Ltd.\n\nData Status: Collection Ongoing\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Not Currently Funded\n\n\n\n\n\n\n\nFigure: Field view of the ThiRST experiment.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: To assess the vulnerability of white spruce plantations to water deficit.\nObjective 2: To evaluate the effectiveness of pre-commercial thinning in reducing white spruce stress under water deficit.\n\n\n\n\n\n\nAcadian Land-use Evaluation of Resource Trade-offs\n\n\n\n\nProject Overview\nThis project examines how land use is evolving across the Acadian Peninsula and the implications of these changes for forest ecosystems, agricultural production, and other competing land uses such as peatland development. As pressures on land intensify in eastern Canada, understanding the balance between forest management, blueberry cultivation, peat extraction, and other uses has become critical for sustainable regional planning.\n\nData Status: Data available\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Partly Funded\n\n\n\n\n\n\n\nFigure: Partial view of the Acadian Peninsula from Sentinel-2 in 2025.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Quantify and characterize long-term land-use and land-cover changes across the Acadian Peninsula (e.g., forest, agriculture/blueberries, peatlands) using multi-temporal remote sensing data and spatial analysis.\nObjective 2: Identify and assess the main biophysical and socio-economic drivers of land-use change and evaluate their implications for forest ecosystems and regional land-use sustainability.\n\n\n\n\n\n\nCLIMate impacts on CONifer plantations\n\n\n\n\nProject Overview\nThis research examines how silvicultural practices and climate variability jointly influence the productivity of white spruce plantations in eastern Canada. It integrates growth modeling, dendroclimatology, and climate change projections to understand how stand structure, thinning intensity, and climatic conditions interact across past, present, and future time horizons.\n\nData Status: Data available\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Not Currently Funded\n\n\n\n\n\n\n\nFigure: Black spruce plantation.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Project future growth and timber yield of white spruce plantations under climate change scenarios, and evaluate how climate change may alter silvicultural outcomes and productivity in New Brunswick and Quebec."
   },
   {
-    "objectID": "publications.html#section",
-    "href": "publications.html#section",
-    "title": "Publications",
-    "section": "2026",
-    "text": "2026\n\nÉvaluation des conflits d’usage entre agriculture et forêt dans le nord-est du Nouveau-Brunswick à l’aide des séries chronologiques d’images satellitaires The Forestry Chronicle Kikpa Bio, R., Albert, C. Link to Open Access Article"
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Welcome to the course repository for FORS4943. Below you will find lecture slides, materials, and presentation modules.\n\n\n\nTopic: Plan de rédaction des résultats scientifiques\nInstructor: Cédric Albert\nThis presentation covers how to select, organize, and present scientific results effectively for both written manuscripts and oral presentations.\n  Open Presentation Fullscreen"
   },
   {
-    "objectID": "publications.html#section-1",
-    "href": "publications.html#section-1",
-    "title": "Publications",
-    "section": "2025",
-    "text": "2025\n\nThe TransX project: A latitudinal network of provenance trials across eastern North America to test the climatic vulnerability of northeastern tree species and their potential for assisted migration The Forestry Chronicle Ravn, J., Moreau, G., Mayrinck, R., Itter, M., Albert, C., Spafford, L., Kneeshaw, D., Achim, A., Perron, M-P., Dumont, S., Rogers, G., Good, M., D’Orangeville, L. Link to Open Access Article"
-  },
-  {
-    "objectID": "publications.html#section-2",
-    "href": "publications.html#section-2",
-    "title": "Publications",
-    "section": "2024",
-    "text": "2024\n\nIntegrating the effects of climate change into long-term strategic forest management planning using a process-based stand model Canadian Journal of Forest Research Albert, C., Taylor, A., D’Orangeville, L. Link to Open Access Article"
-  },
-  {
-    "objectID": "publications.html#section-3",
-    "href": "publications.html#section-3",
-    "title": "Publications",
-    "section": "2023",
-    "text": "2023\n\nThe Acadian Forest of New Brunswick in the 21st century: what shifting heat and water balance imply for future stand dynamics and management Environmental Reviews Albert, C., Taylor, A., Travis, L., D’Orangeville, L. Link to Open Access Article"
+    "objectID": "lectures.html#fors4943-scientific-writing-communication",
+    "href": "lectures.html#fors4943-scientific-writing-communication",
+    "title": "Lectures",
+    "section": "",
+    "text": "Welcome to the course repository for FORS4943. Below you will find lecture slides, materials, and presentation modules.\n\n\n\nTopic: Plan de rédaction des résultats scientifiques\nInstructor: Cédric Albert\nThis presentation covers how to select, organize, and present scientific results effectively for both written manuscripts and oral presentations.\n  Open Presentation Fullscreen"
   },
   {
     "objectID": "index.html",
@@ -140,10 +126,199 @@
     "text": "Application Instructions\n\n\n\nIf you are interested in a position, please email Dr. Albert with the following:\n\nA brief statement of interest\nYour CV.\nA copy of your unofficial transcripts."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research Projects",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Navigate through our active research initiatives using the tabs below.\n\nTransXThiRSTALERTCLIMCON\n\n\n\nTransborder experimental assessment of warming vulnerability in northeastern tree species and their assisted migration potential\n\n\n\n\nProject Overview\nThe TransX project addresses the risks posed by climate change to our northern forests. By evaluating tree species and provenances across a large warming gradient, we aim to identify the genetic stock that will maintain and improve productivity and ensure the resilience of the overall wood supply in Eastern Canada and the US.\n\nData Status: Collection Ongoing\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Funded\n\n\n\nPartners & Links\n\nProject Lead Website\nSilva21 Research Portal\n\n\n\n\n\n\n\nFigure: Distribution of TransX experimental sites.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Assess the warming tolerance of key natural hardwood and softwood species and populations to inform adaptive silviculture strategies.\nObjective 2: Assess the cold tolerance of southern populations to inform assisted migration and changes in seed transfer zones.\nObjective 3: Quantify genetic control of growth and survival across temperature range for well-known improved progenies.\n\n\n\n\n\n\nLarge-scale experimental assessment of pre-commercial thinning to reduce the vulnerability of drought\n\n\n\n\nProject Overview\nThe ThiRST experiment, established in 2022, is a silvicultural study designed to evaluate whether pre-commercial thinning can help mitigate drought-related stress in white spruce stands. This question is increasingly relevant for the forestry sector, as projections indicate a rise in both the frequency and intensity of drought events, with potential impacts on the growth and yield of commercially important softwood species. By reducing stand density, pre-commercial thinning may improve water availability to individual trees and enhance their resilience. The trial is located in the Black Brook district of New Brunswick on land managed by J.D. Irving Ltd.\n\nData Status: Collection Ongoing\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Not Currently Funded\n\n\n\n\n\n\n\nFigure: Field view of the ThiRST experiment.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: To assess the vulnerability of white spruce plantations to water deficit.\nObjective 2: To evaluate the effectiveness of pre-commercial thinning in reducing white spruce stress under water deficit.\n\n\n\n\n\n\nAcadian Land-use Evaluation of Resource Trade-offs\n\n\n\n\nProject Overview\nThis project examines how land use is evolving across the Acadian Peninsula and the implications of these changes for forest ecosystems, agricultural production, and other competing land uses such as peatland development. As pressures on land intensify in eastern Canada, understanding the balance between forest management, blueberry cultivation, peat extraction, and other uses has become critical for sustainable regional planning.\n\nData Status: Data available\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Partly Funded\n\n\n\n\n\n\n\nFigure: Partial view of the Acadian Peninsula from Sentinel-2 in 2025.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Quantify and characterize long-term land-use and land-cover changes across the Acadian Peninsula (e.g., forest, agriculture/blueberries, peatlands) using multi-temporal remote sensing data and spatial analysis.\nObjective 2: Identify and assess the main biophysical and socio-economic drivers of land-use change and evaluate their implications for forest ecosystems and regional land-use sustainability.\n\n\n\n\n\n\nCLIMate impacts on CONifer plantations\n\n\n\n\nProject Overview\nThis research examines how silvicultural practices and climate variability jointly influence the productivity of white spruce plantations in eastern Canada. It integrates growth modeling, dendroclimatology, and climate change projections to understand how stand structure, thinning intensity, and climatic conditions interact across past, present, and future time horizons.\n\nData Status: Data available\n\n\nStudent Status: Looking for Candidate\n\n\nFunding Status: Not Currently Funded\n\n\n\n\n\n\n\nFigure: Black spruce plantation.\n\n\n\n\n\n\nMain Project Objectives\n\nObjective 1: Project future growth and timber yield of white spruce plantations under climate change scenarios, and evaluate how climate change may alter silvicultural outcomes and productivity in New Brunswick and Quebec."
+    "text": "Manage and explore our latest research on forest dynamics, climate adaptation, and landscape modeling."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\nÉvaluation des conflits d’usage entre agriculture et forêt dans le nord-est du Nouveau-Brunswick à l’aide des séries chronologiques d’images satellitaires The Forestry Chronicle Kikpa Bio, R., Albert, C. Link to Open Access Article"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nThe TransX project: A latitudinal network of provenance trials across eastern North America to test the climatic vulnerability of northeastern tree species and their potential for assisted migration The Forestry Chronicle Ravn, J., Moreau, G., Mayrinck, R., Itter, M., Albert, C., Spafford, L., Kneeshaw, D., Achim, A., Perron, M-P., Dumont, S., Rogers, G., Good, M., D’Orangeville, L. Link to Open Access Article"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\nIntegrating the effects of climate change into long-term strategic forest management planning using a process-based stand model Canadian Journal of Forest Research Albert, C., Taylor, A., D’Orangeville, L. Link to Open Access Article"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\nThe Acadian Forest of New Brunswick in the 21st century: what shifting heat and water balance imply for future stand dynamics and management Environmental Reviews Albert, C., Taylor, A., Travis, L., D’Orangeville, L. Link to Open Access Article"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#toujours-trop-de-résultats",
+    "href": "slides/resultats_scientifiques.html#toujours-trop-de-résultats",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Toujours trop de résultats!",
+    "text": "Toujours trop de résultats!\n\n« Des résultats ? J’en ai plein. Je connais des milliers de choses qui ne fonctionnent pas. »\n\n\n— Thomas A. Edison\n\n\nOuverture volontairement décalée. Laissez planer 2-3 secondes de silence après avoir lu la citation. Demandez : “À votre avis, pourquoi je commence un cours sur les résultats scientifiques avec un échec ?” Récoltez 2-3 réponses avant d’enchaîner. L’idée : même une expérience “ratée” est un résultat qui mérite d’être écrit correctement."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#aujourdhui",
+    "href": "slides/resultats_scientifiques.html#aujourdhui",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Aujourd’hui",
+    "text": "Aujourd’hui\n\nCe qu’on met (et ce qu’on ne met PAS) dans une section résultats\nComment organiser ses données sans perdre son lecteur\nLe piège des statistiques et décimales\nComment présenter ces mêmes résultats à l’oral\nErreurs classiques\n\n\nÀ la fin, leurs étudiants doivent être capables de regarder un jeu de données et de savoir QUOI en dire, dans QUEL ordre, et QUOI laisser de côté."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#la-section-résultats-le-cœur-du-travail",
+    "href": "slides/resultats_scientifiques.html#la-section-résultats-le-cœur-du-travail",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "La section résultats : le cœur du travail",
+    "text": "La section résultats : le cœur du travail\n\nL’introduction et la section matériel-méthodes expliquent le pourquoi et le comment\nLa discussion explique ce que ça signifie\nLes résultats, eux, sont la nouveauté brute que vous apportez au monde\n\n\n\nSans résultats solides et clairs, tout le reste de la recherche s’effondre. 💩\n\n\n\nInsistez : les résultats sont souvent la section la PLUS COURTE de l’article — justement parce qu’un bon matériel-méthodes et une bonne discussion évitent la redite."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#les-deux-ingrédients",
+    "href": "slides/resultats_scientifiques.html#les-deux-ingrédients",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Les deux ingrédients",
+    "text": "Les deux ingrédients\n\n\n1. La vue d’ensemble\nLe portrait général de vos expériences, sans répéter les détails méthodologiques déjà donnés ailleurs.\n\n2. Les données elles-mêmes\nPrésentées au passé, organisées, sélectionnées.\n\n\n🌲 Exemple : “Nous avons suivi la croissance en diamètre de 240 semis d’épinette noire sur trois sites de coupe partielle pendant cinq saisons de croissance.” (vue d’ensemble — pas besoin de réexpliquer ici comment vous avez mesuré chaque tige)\n\n\nPiège fréquent chez les étudiants : ils recommencent à décrire leur protocole dans les résultats “au cas où le lecteur aurait oublié”. Non. On avance."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#comment-organiser-trois-façons",
+    "href": "slides/resultats_scientifiques.html#comment-organiser-trois-façons",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Comment organiser ? Trois façons",
+    "text": "Comment organiser ? Trois façons\n\nChronologique — utile pour un suivi dans le temps (ex. : croissance d’une plantation sur 10 ans)\nPar thème — avec des sous-titres qui font écho à votre méthodo (ex. : Survie, Croissance en hauteur, Composition des espèces)\nPar importance décroissante — on commence par le résultat qui change vraiment la donne\n\n\n🌲 Une étude sur l’effet du reboisement après feu pourrait suivre l’ordre : régénération naturelle → régénération assistée → mortalité par site, plutôt qu’un fouillis chronologique de visites de terrain.\n\n\nDemandez-leur : si vous étudiiez l’effet de la martelage sur la régénération, quel ordre choisiriez-vous et pourquoi ? Faites lever la main pour chaque option, en 20 secondes, pas plus — on ne s’attarde pas."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#exemple-organisation-chronologique",
+    "href": "slides/resultats_scientifiques.html#exemple-organisation-chronologique",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Exemple : organisation chronologique",
+    "text": "Exemple : organisation chronologique\n\n\nCette figure EST l’organisation chronologique : elle raconte une évolution dans le temps, exactement le type de résultat qui devrait suivre l’ordre des saisons plutôt qu’un ordre arbitraire."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#représentatif-pas-répétitif",
+    "href": "slides/resultats_scientifiques.html#représentatif-pas-répétitif",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Représentatif, pas répétitif",
+    "text": "Représentatif, pas répétitif\n\n« Le fou amasse les faits ; le sage les choisit. »\n\n\n— John Wesley Powell, géologue (1888)\n\n\nVous n’avez pas à montrer les 240 semis un par un. Une moyenne, un écart-type, un graphique — voilà le “predigestion” que veut le lecteur. (ex. : un mémoire truffé de 40 tableaux quasi identiques)."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#représentatif-pas-répétitif-figure",
+    "href": "slides/resultats_scientifiques.html#représentatif-pas-répétitif-figure",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Représentatif, pas répétitif (Figure)",
+    "text": "Représentatif, pas répétitif (Figure)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÀ gauche : les 240 points bruts — c’est ce que Powell appelait “amasser les faits”. À droite : la même information, choisie et digérée. Demandez : laquelle des deux enverriez-vous à votre directeur de recherche s’il ne pouvait regarder qu’une seule image 5 secondes ?"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#exemple-trop-vs-juste-assez",
+    "href": "slides/resultats_scientifiques.html#exemple-trop-vs-juste-assez",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Exemple : trop vs juste assez",
+    "text": "Exemple : trop vs juste assez\n\n\n❌ Trop\n“L’arbre 1 mesurait 12,3 cm ; l’arbre 2, 12,1 cm ; l’arbre 3, 11,9 cm… [237 arbres plus tard]”\n\n✅ Juste assez\n“Le diamètre moyen des semis a atteint 12,4 ± 1,8 cm après cinq saisons (n = 240 ; tableau 2).”\n\n\n🎯 Une donnée négative compte aussi : “Aucune différence de survie n’a été observée entre les trois types de préparation de terrain (p = 0,61).” — savoir ce qui n’a pas d’effet est une information utile."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#où-mettre-quoi",
+    "href": "slides/resultats_scientifiques.html#où-mettre-quoi",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Où mettre quoi ?",
+    "text": "Où mettre quoi ?\n\nUne ou deux valeurs isolées → dans le texte\nDes séries de données répétitives → dans un tableau ou un graphique\nLe texte commente, il ne répète pas le tableau\n\n\n“La hauteur moyenne des plants variait selon le traitement de scarifiage (tableau 1).” plutôt que “Le tableau 1 montre clairement que la hauteur moyenne des plants variait selon le traitement de scarifiage, comme on peut le voir dans le tableau 1.”\n\n\nFaites-les rire un peu ici — le deuxième exemple est volontairement absurde et redondant (le mot “tableau 1” y apparaît deux fois). C’est le genre de phrase qu’on écrit tous en premier jet, à 23h, avant la date de tombée."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#le-même-résultat-en-tableau",
+    "href": "slides/resultats_scientifiques.html#le-même-résultat-en-tableau",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Le même résultat, en tableau",
+    "text": "Le même résultat, en tableau\n\n\n\nSite\nTraitement\nn\nDiamètre moyen (cm)\nÉcart-type\n\n\n\n\nSite 1\nCoupe légère\n80\n11,6\n1,6\n\n\nSite 2\nCoupe modérée\n80\n12,4\n1,8\n\n\nSite 3\nCoupe forte\n80\n13,9\n2,0\n\n\n\n\nDans le texte, on ne répète pas ces six chiffres : “Le diamètre moyen augmentait avec l’intensité de la coupe (tableau 1).”\n\n\nC’est exactement le genre de tableau qui va dans la section résultats. Trois lignes, pas 240 — représentatif, pas répétitif."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#le-même-résultat-en-figure",
+    "href": "slides/resultats_scientifiques.html#le-même-résultat-en-figure",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Le même résultat, en figure",
+    "text": "Le même résultat, en figure\n\n\nMême donnée que le tableau précédent, mais la tendance (plus la coupe est forte, plus la croissance est rapide) se voit en une seconde, sans lire un seul chiffre. C’est exactement l’argument central de la Partie 2 : à l’oral, préférez toujours ceci au tableau."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#les-statistiques-cest-compliquées",
+    "href": "slides/resultats_scientifiques.html#les-statistiques-cest-compliquées",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Les statistiques c’est compliquées !",
+    "text": "Les statistiques c’est compliquées !\n\n« 33,3 % des souris ont guéri. 33,3 % sont restées inchangées. La troisième souris… s’est sauvée. »\n\n\nCitation classique tirée d’un éditeur de revue. Message sérieux derrière la blague : avec un échantillon de 3, aucun pourcentage n’a de sens."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#le-piège-des-décimales",
+    "href": "slides/resultats_scientifiques.html#le-piège-des-décimales",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Le piège des décimales",
+    "text": "Le piège des décimales\n\nSi 17 arbres sur 59 ont survécu à une sécheresse…\n\n\n❌ “28,8136 % des arbres ont survécu.”\n\n\n✅ “29 % des arbres ont survécu.”\n\n\nCe n’est pas parce que votre calculatrice affiche huit chiffres qu’il faut tous les écrire.\n\n\nFaites le calcul en direct sur le tableau si possible (17/59 = 0.28813…). Le point : la fausse précision donne une illusion de rigueur scientifique, alors qu’elle trahit plutôt qu’on n’a pas réfléchi à la taille réelle de l’échantillon."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#clarté-avant-élégance",
+    "href": "slides/resultats_scientifiques.html#clarté-avant-élégance",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Clarté avant élégance",
+    "text": "Clarté avant élégance\n\n« Si vous voulez décrire la vérité, laissez l’élégance aux stylistes »\n\n\n— Albert Einstein\n\n\nle rôle d’un auteur n’est pas de faire de belles phrases complexes, mais d’exposer la réalité de manière brute, exacte et sans détour. Chercher à rendre le texte trop « élégant » ou sophistiqué risque d’embrouiller le message, d’introduire des ambiguïtés ou de masquer ce que disent réellement les données."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#attention-aux-pronoms-flottants-ambigu",
+    "href": "slides/resultats_scientifiques.html#attention-aux-pronoms-flottants-ambigu",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Attention aux pronoms flottants (ambigu)",
+    "text": "Attention aux pronoms flottants (ambigu)\n\n“La jambe gauche était engourdie par moments… Le deuxième jour, le genou allait mieux, et le troisième jour, il avait complètement disparu.”\n\n\nDe quoi parle ce “il” ? De l’engourdissement ? Du genou ? Le lecteur devine — et devine mal.\n\n\nExemple réel tiré d’un manuscrit médical. Correction: « Le deuxième jour, le genou allait mieux, et le troisième jour, l’engourdissement avait complètement disparu. »"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#et-le-matériel-supplémentaire",
+    "href": "slides/resultats_scientifiques.html#et-le-matériel-supplémentaire",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Et le matériel supplémentaire ?",
+    "text": "Et le matériel supplémentaire ?\n\nDonnées brutes, tableaux étendus, figures additionnelles → souvent déposés en ligne, hors du corps du texte\nLes normes varient énormément d’une revue, d’un programme ou d’un directeur à l’autre\nVérifiez toujours les exigences avant de tout entasser en annexe"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#un-jeu-de-données-une-bonne-diapositive",
+    "href": "slides/resultats_scientifiques.html#un-jeu-de-données-une-bonne-diapositive",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Un jeu de données ≠ une bonne diapositive",
+    "text": "Un jeu de données ≠ une bonne diapositive\n\nCe qui fonctionne dans un tableau d’article ne fonctionne presque jamais projeté tel quel sur un écran.\n\n\n🌲 Un tableau de 12 lignes × 8 colonnes de mesures dendrométriques = personne ne le lit, tout le monde décroche.\n\n\nTransition naturelle : “vous savez maintenant écrire vos résultats — reste à les présenter sans vider la salle.”"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#la-preuve-en-direct",
+    "href": "slides/resultats_scientifiques.html#la-preuve-en-direct",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "La preuve, en direct",
+    "text": "La preuve, en direct\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArbre\nSite\nDHP_cm\nHauteur_m\nVolume_dm3\nEtat_sanitaire\nAnnee\nReleve\n\n\n\n\n1\nSite 2\n16.4\n8.8\n44.2\nMoyen\n2024\nTerrain A\n\n\n2\nSite 3\n12.7\n9.6\n40.8\nBon\n2024\nTerrain A\n\n\n3\nSite 3\n17.4\n6.3\n39.4\nMoyen\n2024\nTerrain B\n\n\n4\nSite 3\n16.6\n9.5\n55.0\nMoyen\n2024\nTerrain A\n\n\n5\nSite 2\n12.6\n8.2\n33.9\nBon\n2024\nTerrain B\n\n\n6\nSite 3\n15.8\n8.9\n43.6\nMoyen\n2024\nTerrain A\n\n\n7\nSite 2\n12.9\n8.7\n48.1\nFaible\n2024\nTerrain B\n\n\n8\nSite 2\n10.2\n6.8\n57.2\nBon\n2024\nTerrain A\n\n\n9\nSite 3\n11.4\n7.7\n38.0\nBon\n2024\nTerrain A\n\n\n10\nSite 2\n12.0\n7.0\n42.1\nMoyen\n2024\nTerrain A\n\n\n11\nSite 3\n14.0\n8.9\n31.9\nMoyen\n2024\nTerrain B\n\n\n12\nSite 3\n13.7\n8.1\n41.1\nBon\n2024\nTerrain A"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#trois-réflexes-pour-une-présentation-vivante",
+    "href": "slides/resultats_scientifiques.html#trois-réflexes-pour-une-présentation-vivante",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Trois réflexes pour une présentation vivante",
+    "text": "Trois réflexes pour une présentation vivante\n\nUne idée par diapositive — pas un paragraphe entier à l’écran\nLe graphique remplace le tableau — une tendance se voit, elle ne se lit pas\nRacontez le résultat avant de le montrer — “Et là, surprise : la parcelle brûlée a mieux régénéré que la parcelle coupée” puis le graphique\n\n\nEncouragez à essayer la technique du “cliffhanger” : annoncer le résultat surprenant avant de dévoiler la figure, exactement comme on garderait le suspense dans une histoire."
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#vrai-ou-faux",
+    "href": "slides/resultats_scientifiques.html#vrai-ou-faux",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Vrai ou faux",
+    "text": "Vrai ou faux\n\nOn peut lire son tableau de résultats à voix haute pendant la présentation → Faux\nUne figure doit pouvoir se comprendre sans que vous parliez → Vrai\nIl faut présenter TOUTES ses données pour être crédible → Faux"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#petit-résumé",
+    "href": "slides/resultats_scientifiques.html#petit-résumé",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Petit résumé",
+    "text": "Petit résumé\n\nVue d’ensemble d’abord, données ensuite\nPassé, organisation logique, pas de répétition de la méthode\nReprésentatif &gt; exhaustif\nTexte pour 1-2 valeurs, tableau/graphique pour le reste\nPas de fausse précision (décimales inutiles)\nLe texte commente le tableau, il ne le répète pas\nAntécédents clairs pour “il”, “cela”, “celui-ci”\nÀ l’oral : une idée par diapositive, le graphique plutôt que le tableau brut"
+  },
+  {
+    "objectID": "slides/resultats_scientifiques.html#merci",
+    "href": "slides/resultats_scientifiques.html#merci",
+    "title": "Plan de rédaction des résultats scientifiques",
+    "section": "Merci !",
+    "text": "Merci !\n\nBasé sur : Day, R.A. & Gastel, B. How to Write and Publish a Scientific Paper, 9ᵉ édition, chapitre 12.\nQuestions ?"
   }
 ]
