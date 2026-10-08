@@ -63,7 +63,7 @@ Project description coming soon.
 :::
 
 ::: {.person}
-![](images/student2.jpg){.profile-photo fig-alt="Louison Mvika"}
+![](images/student2.jpg){.profile-photo fig-alt="Ayden MacFarlane"}
 
 ### Ayden MacFarlane
 
