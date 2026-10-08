@@ -1,167 +1,119 @@
 ---
-title: "Research Projects"
+title: "Research"
+subtitle: "Field experiments, remote sensing and growth models for forests under climate change"
 ---
 
-Navigate through our active research initiatives using the tabs below.
+Our projects combine long-term field trials with modelling and remote sensing. Most are run with industry and university partners, and every project below has room for a graduate student.
+
+::: {.callout-note appearance="simple"}
+**Looking for a thesis project?** All four projects are open to MSc and PhD candidates. See [Join the lab](join.qmd) for how to get in touch.
+:::
 
 ::: {.panel-tabset}
 
 ## TransX
 
-### Transborder experimental assessment of warming vulnerability in northeastern tree species and their assisted migration potential
-
-::: {layout="[45, 55]"}
-
-::: {#first-column}
-#### Project Overview
-The TransX project addresses the risks posed by climate change to our northern forests. By evaluating tree species and provenances across a large warming gradient, we aim to identify the genetic stock that will maintain and improve productivity and ensure the resilience of the overall wood supply in Eastern Canada and the US.
-
-::: {.status-badge}
-**Data Status:** Collection Ongoing
+::: {.project-title}
+Transborder experimental assessment of warming vulnerability in northeastern tree species and their assisted migration potential
 :::
 
-::: {.student-badge}
-**Student Status:** Looking for Candidate
+[Data · Collection ongoing]{.status .partial} [Funding · Funded]{.status .ok} [Student · Position open]{.status .open}
+
+::: {layout="[48, 52]" layout-valign="top"}
+
+::: {.project-text}
+TransX tests how northern tree species and their seed sources respond to warming. Trees from across their natural ranges are planted along a broad temperature gradient in eastern Canada and the US. The goal is to identify the genetic stock that will keep plantations productive and the regional wood supply secure as the climate warms.
+
+#### Partners and links
+- [Project lead website (D'Orangeville Lab)](https://www.dorangevillelab.ca/transx-exp)
+- [Silva21 research portal](https://www.silva21.com/projects/assisted-migration-trials:-implementation)
 :::
 
-::: {.funding-badge}
-**Funding Status:** Funded
-:::
-
-#### Partners & Links
-
-* [Project Lead Website](https://www.dorangevillelab.ca/transx-exp)
-* [Silva21 Research Portal](https://www.silva21.com/projects/assisted-migration-trials:-implementation)
-:::
-
-::: {#second-column}
-![**Figure:** Distribution of TransX experimental sites.](images/TransX_Site_Map.png){.research-img}
+::: {.project-figure}
+![Distribution of TransX experimental sites.](images/TransX_Site_Map.png){.research-img}
 :::
 
 :::
 
-#### Main Project Objectives
-
-* **Objective 1:** Assess the warming tolerance of key natural hardwood and softwood species and populations to inform adaptive silviculture strategies.
-* **Objective 2:** Assess the cold tolerance of southern populations to inform assisted migration and changes in seed transfer zones.
-* **Objective 3:** Quantify genetic control of growth and survival across temperature range for well-known improved progenies.
-
-
+#### Objectives
+1. Assess the warming tolerance of key hardwood and softwood species and populations to inform adaptive silviculture.
+2. Assess the cold tolerance of southern populations to guide assisted migration and revisions to seed transfer zones.
+3. Quantify genetic control of growth and survival across the temperature range for well-known improved progenies.
 
 
 ## ThiRST
 
-### Large-scale experimental assessment of pre-commercial thinning to reduce the vulnerability of drought
-
-::: {layout="[45, 55]"}
-
-::: {#thirst-desc}
-#### Project Overview
-The ThiRST experiment, established in 2022, is a silvicultural study designed to evaluate whether pre-commercial thinning can help mitigate drought-related stress in white spruce stands. This question is increasingly relevant for the forestry sector, as projections indicate a rise in both the frequency and intensity of drought events, with potential impacts on the growth and yield of commercially important softwood species. By reducing stand density, pre-commercial thinning may improve water availability to individual trees and enhance their resilience. The trial is located in the Black Brook district of New Brunswick on land managed by J.D. Irving Ltd.
-
-::: {.status-badge}
-**Data Status:** Collection Ongoing
+::: {.project-title}
+Large-scale experimental assessment of pre-commercial thinning to reduce drought vulnerability
 :::
 
-::: {.student-badge}
-**Student Status:** Looking for Candidate
+[Data · Collection ongoing]{.status .partial} [Funding · Not currently funded]{.status .none} [Student · Position open]{.status .open}
+
+::: {layout="[48, 52]" layout-valign="top"}
+
+::: {.project-text}
+Drought events are projected to become more frequent and more severe, with direct consequences for the growth of commercial softwoods. ThiRST, established in 2022, asks whether pre-commercial thinning can reduce drought stress in white spruce: with fewer stems competing, each tree may have more water available.
+
+The trial is located in the Black Brook district of New Brunswick, on land managed by J.D. Irving Ltd.
 :::
 
-::: {.funding-badge}
-**Funding Status:** Not Currently Funded
-:::
-
-:::
-
-::: {#second-column}
-![**Figure:** Field view of the ThiRST experiment.](images/thirst1.JPG){.research-img}
+::: {.project-figure}
+![Field view of the ThiRST experiment.](images/thirst1.JPG){.research-img}
 :::
 
 :::
 
-#### Main Project Objectives
-* **Objective 1:** To assess the vulnerability of white spruce plantations to water deficit.
-* **Objective 2:** To evaluate the effectiveness of pre-commercial thinning in reducing white spruce stress under water deficit.
-
-
-
+#### Objectives
+1. Assess the vulnerability of white spruce plantations to water deficit.
+2. Evaluate how well pre-commercial thinning reduces white spruce stress under water deficit.
 
 
 ## ALERT
 
-### Acadian Land-use Evaluation of Resource Trade-offs
-
-::: {layout="[45, 55]"}
-
-::: {#thirst-desc}
-#### Project Overview
-This project examines how land use is evolving across the Acadian Peninsula and the implications of these changes for forest ecosystems, agricultural production, and other competing land uses such as peatland development. As pressures on land intensify in eastern Canada, understanding the balance between forest management, blueberry cultivation, peat extraction, and other uses has become critical for sustainable regional planning.
-
-::: {.status-badge}
-**Data Status:** Data available
+::: {.project-title}
+Acadian Land-use Evaluation of Resource Trade-offs
 :::
 
-::: {.student-badge}
-**Student Status:** Looking for Candidate
+[Data · Available]{.status .ok} [Funding · Partly funded]{.status .partial} [Student · Position open]{.status .open}
+
+::: {layout="[48, 52]" layout-valign="top"}
+
+::: {.project-text}
+Land on the Acadian Peninsula is under growing pressure from forestry, blueberry production and peat extraction. ALERT tracks how land use has changed across the peninsula and what those changes mean for forest ecosystems, agriculture and regional planning.
 :::
 
-::: {.funding-badge}
-**Funding Status:** Partly Funded
+::: {.project-figure}
+![Part of the Acadian Peninsula seen by Sentinel-2, 2025.](images/Sentinel_2025.png){.research-img}
 :::
 
 :::
 
-::: {#second-column}
-![**Figure:** Partial view of the Acadian Peninsula from Sentinel-2 in 2025.](images/Sentinel_2025.png){.research-img}
-
-:::
-
-:::
-
-#### Main Project Objectives
-* **Objective 1:** Quantify and characterize long-term land-use and land-cover changes across the Acadian Peninsula (e.g., forest, agriculture/blueberries, peatlands) using multi-temporal remote sensing data and spatial analysis.
-* **Objective 2:** Identify and assess the main biophysical and socio-economic drivers of land-use change and evaluate their implications for forest ecosystems and regional land-use sustainability.
-
-
-
-
+#### Objectives
+1. Quantify long-term land-use and land-cover change across the Acadian Peninsula (forest, blueberry fields, peatlands) using multi-temporal satellite imagery and spatial analysis.
+2. Identify the main biophysical and socio-economic drivers of that change and assess what it means for forest ecosystems and sustainable land use in the region.
 
 
 ## CLIMCON
 
-### CLIMate impacts on CONifer plantations
-
-::: {layout="[45, 55]"}
-
-::: {#thirst-desc}
-#### Project Overview
-This research examines how silvicultural practices and climate variability jointly influence the productivity of white spruce plantations in eastern Canada. It integrates growth modeling, dendroclimatology, and climate change projections to understand how stand structure, thinning intensity, and climatic conditions interact across past, present, and future time horizons.
-
-::: {.status-badge}
-**Data Status:** Data available
+::: {.project-title}
+CLIMate impacts on CONifer plantations
 :::
 
-::: {.student-badge}
-**Student Status:** Looking for Candidate
+[Data · Available]{.status .ok} [Funding · Not currently funded]{.status .none} [Student · Position open]{.status .open}
+
+::: {layout="[48, 52]" layout-valign="top"}
+
+::: {.project-text}
+How do thinning and climate together shape the productivity of white spruce plantations? CLIMCON combines growth modelling, dendroclimatology and climate projections to follow stand structure, thinning intensity and climate across past, present and future conditions.
 :::
 
-::: {.funding-badge}
-**Funding Status:** Not Currently Funded
+::: {.project-figure}
+![Black spruce plantation.](images/coniferplt.JPG){.research-img}
 :::
 
 :::
 
-::: {#second-column}
-![**Figure:** Black spruce plantation.](images/coniferplt.JPG){.research-img}
-
-:::
-
-:::
-
-#### Main Project Objectives
-* **Objective 1:** Project future growth and timber yield of white spruce plantations under climate change scenarios, and evaluate how climate change may alter silvicultural outcomes and productivity in New Brunswick and Quebec.
-
-
-
+#### Objectives
+1. Project the future growth and timber yield of white spruce plantations under climate change scenarios, and evaluate how climate change may alter silvicultural outcomes in New Brunswick and Quebec.
 
 :::

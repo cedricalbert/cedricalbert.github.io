@@ -1,53 +1,76 @@
 ---
-title: "Our Team"
+title: "People"
+subtitle: "The researchers and students behind the lab"
 ---
 
-## Principal Investigator
+## Principal investigator
 
-::: {.person-record}
-![](images/cedricalbert_V3.jpg){.profile-photo}
+::: {.person}
+![](images/cedricalbert_V3.jpg){.profile-photo fig-alt="Cédric Albert"}
 
 ### Cédric Albert, PhD, RPF
 
-**Professor of Forest Management** [Email](mailto:cedric.albert@umoncton.ca) | [ResearchGate](https://www.researchgate.net/profile/Cedric-Albert)
+[Assistant Professor of Forest Management]{.role}
 
-Welcome! I am an Assistant Professor at the École de foresterie, Université de Moncton (Edmundston). My research focuses on understanding how climate change is reshaping forests, with an emphasis on landscape-level forest management, spatial analytics, and data-driven modeling. I develop and apply tools to quantify climate impacts and support adaptive management strategies for resilient forest ecosystems across North America.
+I am an assistant professor at the École de foresterie, Université de Moncton (Edmundston campus). My research looks at how climate change is reshaping forests, with a focus on landscape-level forest management, spatial analysis and modelling. I develop tools that quantify climate impacts and help managers plan for more resilient forests across North America.
+
+[Email](mailto:cedric.albert@umoncton.ca){.btn .btn-sm .btn-outline-primary} [ResearchGate](https://www.researchgate.net/profile/Cedric-Albert){.btn .btn-sm .btn-outline-primary}
 :::
 
-***
+## PhD students
 
-## PhD Students
-
-::: {.person-record}
-![](images/joaniedube.jpeg){.profile-photo}
+::: {.person}
+![](images/joaniedube.jpeg){.profile-photo fig-alt="Joanie Dubé"}
 
 ### Joanie Dubé
-[Supervision]{.badge} [2026 - Ongoing]{.badge-time}
 
-**PhD Student** Bio: Joanie is a doctoral researcher at the École de foresterie, where she is pursuing a PhD in Life Sciences at Université de Moncton. As part of the TransX project, she studies the performance of tree populations originating from different regions of North America and transplanted along a climatic gradient as part of an assisted migration approach. Her research focuses on growth, survival, and functional traits to better understand the capacity of tree populations to adapt to new climatic conditions. This knowledge will contribute to the development of silvicultural strategies adapted to climate change. Originally from Edmundston, New Brunswick, Joanie holds a Bachelor of Science in Biology from Université de Moncton and a Master’s degree in Environmental Sciences from the Université du Québec à Montréal. She has more than 10 years of experience in ecology and environmental project management, particularly in wildlife conservation, ecosystem management, and land-use planning. She also teaches wildlife ecology at Université de Moncton.
+[PhD in Life Sciences, Université de Moncton]{.role}
 
+[Supervised]{.tag} [2026 – present]{.tag .muted} [TransX]{.tag .muted}
+
+As part of the TransX project, Joanie studies how tree populations from different regions of North America perform when transplanted along a climatic gradient, as a test of assisted migration. She measures growth, survival and functional traits to understand how well these populations can adapt to new climates, with the aim of informing silvicultural strategies under climate change.
+
+Originally from Edmundston, Joanie holds a BSc in Biology from the Université de Moncton and an MSc in Environmental Sciences from the Université du Québec à Montréal. She brings more than ten years of experience in ecology and environmental project management, mainly in wildlife conservation, ecosystem management and land-use planning, and teaches wildlife ecology at the Université de Moncton.
 :::
 
-::: {.person-record}
-![](images/nicolasgirard.JPG){.profile-photo}
+::: {.person}
+![](images/nicolasgirard.JPG){.profile-photo fig-alt="Nicolas Girard"}
 
 ### Nicolas Girard
-[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
 
-**PhD Student** Bio: Originally from the Lac-Saint-Jean region of Quebec, Nicolas obtained his BSc in Forest Management and MSc in Forest Sciences from the Université de Moncton. His research focuses on ecological forestry under climate change, with a particular interest in using forest modelling and decision-support systems to translate natural disturbance regimes into practical management strategies at the landscape level. Before beginning his PhD at UNB, he worked as a professional forester managing the Université de Moncton’s Experimental Forest and teaching forestry field courses. In his spare time, Nicolas enjoys fishing, gaming, and listening to 80s rock music.
+[PhD student, University of New Brunswick]{.role}
+
+[Co-supervised]{.tag} [2026 – present]{.tag .muted}
+
+Nicolas works on ecological forestry under climate change. He uses forest modelling and decision-support systems to turn natural disturbance regimes into practical management strategies at the landscape level.
+
+Originally from the Lac-Saint-Jean region of Quebec, he holds a BSc in Forest Management and an MSc in Forest Sciences from the Université de Moncton. Before starting his PhD, he managed the Université de Moncton's Experimental Forest as a professional forester and taught forestry field courses. Outside work, he enjoys fishing, gaming and 80s rock.
 :::
 
+## MSc students
 
-## Master Students
-
-::: {.person-record}
-![](images/student1.jpg){.profile-photo}
+::: {.person}
+![](images/student1.jpg){.profile-photo fig-alt="Louison Mvika"}
 
 ### Louison Mvika
-[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
 
-**MSc Student** Project: Description of the research project goes here.
+[MSc student]{.role}
+
+[Co-supervised]{.tag} [2026 – present]{.tag .muted}
+
+<!-- Replace with a 2–3 sentence project description. -->
+Project description coming soon.
 :::
 
-***
+::: {.person}
+![](images/student2.jpg){.profile-photo fig-alt="Louison Mvika"}
 
+### Ayden MacFarlane
+
+[MSc student]{.role}
+
+[Co-supervised]{.tag} [2026 – present]{.tag .muted}
+
+<!-- Replace with a 2–3 sentence project description. -->
+Project description coming soon.
+:::

@@ -1,32 +1,54 @@
 project:
   type: website
   output-dir: docs
+
+execute:
+  freeze: auto        # re-run R code only when a page's source changes
+
 website:
   title: "Climate Change and Forest Ecosystems Lab"
   favicon: images/CCFELOGO_025x025.png
+  page-navigation: false
   navbar:
+    title: "CCFE Lab"
     logo: images/CCFELOGO_025x025.png
-    background: "#1b4d3e" #navbar dark green!
+    logo-alt: "CCFE Lab logo"
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
         text: Research
       - href: team.qmd
         text: People
-      - href: collab.qmd
-        text: Partners        
       - href: publications.qmd
         text: Publications
-      - href: join.qmd
-        text: Join Us
+      - href: collab.qmd
+        text: Partners
       - href: lectures.qmd
-        text: Lectures
+        text: Teaching
+      - href: join.qmd
+        text: Join the lab
+    right:
+      - icon: envelope
+        href: mailto:cedric.albert@umoncton.ca
+        aria-label: Email
+  page-footer:
+    left: "Climate Change and Forest Ecosystems Lab · École de foresterie, Université de Moncton, Edmundston, NB"
+    right:
+      - icon: envelope
+        href: mailto:cedric.albert@umoncton.ca
+        aria-label: Email
+
 format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
+      - custom.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    # R code and output
+    code-fold: true
+    code-summary: "Show code"
+    code-copy: true
+    highlight-style: github
+    fig-align: center
+    fig-dpi: 150

@@ -1,0 +1,53 @@
+---
+title: "Our Team"
+---
+
+## Principal Investigator
+
+::: {.person-record}
+![](images/cedricalbert_V3.jpg){.profile-photo}
+
+### Cédric Albert, PhD, RPF
+
+**Professor of Forest Management** [Email](mailto:cedric.albert@umoncton.ca) | [ResearchGate](https://www.researchgate.net/profile/Cedric-Albert)
+
+Welcome! I am an Assistant Professor at the École de foresterie, Université de Moncton (Edmundston). My research focuses on understanding how climate change is reshaping forests, with an emphasis on landscape-level forest management, spatial analytics, and data-driven modeling. I develop and apply tools to quantify climate impacts and support adaptive management strategies for resilient forest ecosystems across North America.
+:::
+
+***
+
+## PhD Students
+
+::: {.person-record}
+![](images/joaniedube.jpeg){.profile-photo}
+
+### Joanie Dubé
+[Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
+**PhD Student** Bio: Joanie is a doctoral researcher at the École de foresterie, where she is pursuing a PhD in Life Sciences at Université de Moncton. As part of the TransX project, she studies the performance of tree populations originating from different regions of North America and transplanted along a climatic gradient as part of an assisted migration approach. Her research focuses on growth, survival, and functional traits to better understand the capacity of tree populations to adapt to new climatic conditions. This knowledge will contribute to the development of silvicultural strategies adapted to climate change. Originally from Edmundston, New Brunswick, Joanie holds a Bachelor of Science in Biology from Université de Moncton and a Master’s degree in Environmental Sciences from the Université du Québec à Montréal. She has more than 10 years of experience in ecology and environmental project management, particularly in wildlife conservation, ecosystem management, and land-use planning. She also teaches wildlife ecology at Université de Moncton.
+
+:::
+
+::: {.person-record}
+![](images/nicolasgirard.JPG){.profile-photo}
+
+### Nicolas Girard
+[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
+**PhD Student** Bio: Originally from the Lac-Saint-Jean region of Quebec, Nicolas obtained his BSc in Forest Management and MSc in Forest Sciences from the Université de Moncton. His research focuses on ecological forestry under climate change, with a particular interest in using forest modelling and decision-support systems to translate natural disturbance regimes into practical management strategies at the landscape level. Before beginning his PhD at UNB, he worked as a professional forester managing the Université de Moncton’s Experimental Forest and teaching forestry field courses. In his spare time, Nicolas enjoys fishing, gaming, and listening to 80s rock music.
+:::
+
+
+## Master Students
+
+::: {.person-record}
+![](images/student1.jpg){.profile-photo}
+
+### Louison Mvika
+[Co-Supervision]{.badge} [2026 - Ongoing]{.badge-time}
+
+**MSc Student** Project: Description of the research project goes here.
+:::
+
+***
+

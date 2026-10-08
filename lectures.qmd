@@ -1,22 +1,26 @@
 ---
-title: "Lectures"
-format: html
+title: "Teaching"
+subtitle: "Course materials and lecture slides"
 ---
 
-## FORS4943 — Scientific Writing & Communication
+## FORS4943 · Scientific Writing and Communication
 
-Welcome to the course repository for **FORS4943**. Below you will find lecture slides, materials, and presentation modules.
+Slides for the course are published here as they are released. The course is taught in French. Each deck opens full screen in a new tab, or can be browsed directly below.
 
----
+<!--
+To add a module, copy the block below and change the title, description and the two slide paths.
+-->
 
-### Module: Results Section Presentation
-**Topic:** *Plan de rédaction des résultats scientifiques*  
-**Instructor:** Cédric Albert  
+::: {.tile}
+[Module · Results]{.eyebrow}
 
-This presentation covers how to select, organize, and present scientific results effectively for both written manuscripts and oral presentations.
+### Plan de rédaction des résultats scientifiques
 
-<a href="slides/resultats_scientifiques.html" target="_blank" class="btn btn-outline-primary mb-3" role="button">
-  <i class="bi bi-box-arrow-up-right"></i> Open Presentation Fullscreen
-</a>
+How to select, organize and present scientific results, for both written manuscripts and oral presentations.
 
-<iframe src="slides/resultats_scientifiques.html" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+[Open slides full screen](slides/resultats_scientifiques.html){.btn .btn-primary .btn-sm target="_blank"}
+
+::: {.slide-frame .ratio .ratio-16x9}
+<iframe src="slides/resultats_scientifiques.html" title="Plan de rédaction des résultats scientifiques" loading="lazy"></iframe>
+:::
+:::

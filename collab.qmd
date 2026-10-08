@@ -1,96 +1,72 @@
 ---
 title: "Partners"
+subtitle: "Organizations we work with on research, data and funding"
 ---
 
-## Industry Partners
+## Industry and research partners
 
-::: {.collaboration-record}
+:::: {.card-grid .two}
 
-<div class="partner-logo">
-  <a href="https://hardwoodsnb.ca/">
-    <img src="images/NHRIlogo.png" alt="NHRI Logo">
-  </a>
-</div>
+::: {.tile}
+[![](images/NHRIlogo.png){.partner-logo fig-alt="NHRI logo"}](https://hardwoodsnb.ca/)
 
 ### Northern Hardwood Research Institute (NHRI)
 
-The NHRI is a primary partner in our efforts to develop adaptive silviculture tools. With NHRI, we investigate the potential decline of deciduous tree species in the Acadian forest of New Brunswick under climate change and work toward solutions for the forest industry.
+A primary partner in developing adaptive silviculture tools. Together we study the potential decline of hardwood species in New Brunswick's Acadian forest under climate change, and work on practical responses for the forest industry.
 
-<a href="https://hardwoodsnb.ca/" class="btn-link">Visit Website</a>
-
+[hardwoodsnb.ca](https://hardwoodsnb.ca/){.more}
 :::
 
-***
+::: {.tile}
+[![](images/ouranoslogo.png){.partner-logo fig-alt="Ouranos logo"}](https://www.ouranos.ca/en)
 
-::: {.collaboration-record}
+### Ouranos
 
-<div class="partner-logo">
-  <a href="https://www.ouranos.ca/en">
-    <img src="images/ouranoslogo.png" alt="Ouranos Logo">
-  </a>
-</div>
+Ouranos provides future climate data from a range of widely used climate models. These projections underpin our climate impact assessments and adaptation planning work.
 
-### Ouranos Climate Center
-
-Ouranos is a key research partner that provides high-quality future climate data derived from a range of widely accepted climate models, supporting our work in climate change impact assessment and adaptation planning.
-
-<a href="https://www.ouranos.ca/en" class="btn-link">Visit Website</a>
-
+[ouranos.ca](https://www.ouranos.ca/en){.more}
 :::
 
-***
+::::
 
-## University Partners
+## University partners
 
-::: {.collaboration-record}
+:::: {.card-grid .two}
 
-<div class="partner-logo">
-  <a href="https://www.ffgg.ulaval.ca/">
-    <img src="images/universitelavallogo.png" alt="Laval Logo">
-  </a>
-</div>
+::: {.tile}
+[![](images/universitelavallogo.png){.partner-logo fig-alt="Université Laval logo"}](https://www.ffgg.ulaval.ca/)
 
-### Université Laval - Faculté de foresterie, de géographie et de géomatique
+### Université Laval
 
-In collaboration with Dr. Loïc D’Orangeville, we conduct research on tree species migration and seedling performance under climate change. We also collaborate with Dr. Guillaume Moreau on maple syrup production, silviculture, and ecology under climate change.
+**Faculté de foresterie, de géographie et de géomatique.** With Dr. Loïc D'Orangeville, we study tree species migration and seedling performance under climate change. With Dr. Guillaume Moreau, we work on maple syrup production, silviculture and ecology under climate change.
 
-<a href="https://www.ffgg.ulaval.ca/" class="btn-link">Visit Website</a>
-
+[ffgg.ulaval.ca](https://www.ffgg.ulaval.ca/){.more}
 :::
 
-***
+::: {.tile}
+[![](images/UNBlogo.png){.partner-logo fig-alt="UNB logo"}](https://www.unb.ca/fredericton/forestry/)
 
-::: {.collaboration-record}
+### University of New Brunswick
 
-<div class="partner-logo">
-  <a href="https://www.unb.ca/fredericton/forestry/">
-    <img src="images/UNBlogo.png" alt="UNB Logo">
-  </a>
-</div>
+**Forestry and Environmental Management.** With Dr. Anthony Taylor, we work on adapting landscape-level forest planning to climate change.
 
-### University of New Brunswick - Forestry & Environmental Management
-
-In collaboration with Dr. Anthony Taylor, we conduct research on the adaptation of landscape-level forest planning to climate change.
-
-<a href="https://www.unb.ca/fredericton/forestry/" class="btn-link">Visit Website</a>
-
+[unb.ca/forestry](https://www.unb.ca/fredericton/forestry/){.more}
 :::
 
+::::
 
-## Funding Partners
+## Funding partners
 
-::: {.collaboration-record}
+:::: {.card-grid .two}
 
-<div class="partner-logo">
-  <a href="https://researchnb.ca/">
-    <img src="images/ResearchNBlogo.png" alt="RNB Logo">
-  </a>
-</div>
+::: {.tile}
+[![](images/ResearchNBlogo.png){.partner-logo fig-alt="Research NB logo"}](https://researchnb.ca/)
 
 ### Research New Brunswick
 
-Research NB has supported many of our forest research projects in New Brunswick. It is a reliable and essential funding partner of this lab.
+Research NB has funded many of our forest research projects in New Brunswick and remains one of the lab's core funding partners.
 
-<a href="https://researchnb.ca/" class="btn-link">Visit Website</a>
-
+[researchnb.ca](https://researchnb.ca/){.more}
 :::
+
+::::

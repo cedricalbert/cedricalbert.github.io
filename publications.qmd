@@ -1,34 +1,60 @@
 ---
 title: "Publications"
+subtitle: "Peer-reviewed articles from the lab and its collaborators"
+toc: true
+toc-title: "By year"
 ---
 
-Manage and explore our latest research on forest dynamics, climate adaptation, and landscape modeling.
+For a complete and up-to-date list, see [ResearchGate](https://www.researchgate.net/profile/Cedric-Albert).
+
+<!--
+To add a paper, copy one block below and edit it:
+
+::: {.pub}
+[Title of the article]{.pub-title}
+
+Author, A., **Albert, C.**, Author, B. · *Journal Name*
+
+[Open access](https://doi.org/...){.pub-link} [PDF](files/paper.pdf){.pub-link}
+:::
+-->
 
 ## 2026
 
-::: {.publication-card}
-**Évaluation des conflits d’usage entre agriculture et forêt dans le nord-est du Nouveau-Brunswick à l’aide des séries chronologiques d’images satellitaires** *The Forestry Chronicle* **Kikpa Bio, R., Albert, C.** 
-[Link to Open Access Article](https://pubs.cif-ifc.org/doi/abs/10.5558/tfc2026-019)
+::: {.pub}
+[Évaluation des conflits d'usage entre agriculture et forêt dans le nord-est du Nouveau-Brunswick à l'aide des séries chronologiques d'images satellitaires]{.pub-title}
+
+Kikpa Bio, R., **Albert, C.** · *The Forestry Chronicle*
+
+[Open access](https://pubs.cif-ifc.org/doi/abs/10.5558/tfc2026-019){.pub-link}
 :::
 
 ## 2025
 
-::: {.publication-card}
-**The TransX project: A latitudinal network of provenance trials across eastern North America to test the climatic vulnerability of northeastern tree species and their potential for assisted migration** *The Forestry Chronicle* **Ravn, J., Moreau, G., Mayrinck, R., Itter, M., Albert, C., Spafford, L., Kneeshaw, D., Achim, A., Perron, M-P., Dumont, S., Rogers, G., Good, M., D'Orangeville, L.** 
-[Link to Open Access Article](https://pubs.cif-ifc.org/doi/10.5558/tfc2026-004)
+::: {.pub}
+[The TransX project: A latitudinal network of provenance trials across eastern North America to test the climatic vulnerability of northeastern tree species and their potential for assisted migration]{.pub-title}
+
+Ravn, J., Moreau, G., Mayrinck, R., Itter, M., **Albert, C.**, Spafford, L., Kneeshaw, D., Achim, A., Perron, M-P., Dumont, S., Rogers, G., Good, M., D'Orangeville, L. · *The Forestry Chronicle*
+
+[Open access](https://pubs.cif-ifc.org/doi/10.5558/tfc2026-004){.pub-link}
 :::
 
 ## 2024
 
-::: {.publication-card}
-**Integrating the effects of climate change into long-term strategic forest management planning using a process-based stand model** *Canadian Journal of Forest Research* **Albert, C., Taylor, A., D'Orangeville, L.**
-[Link to Open Access Article](https://cdnsciencepub.com/doi/10.1139/cjfr-2024-0238?utm_source=researchgate.net&utm_medium=article)
-:::
+::: {.pub}
+[Integrating the effects of climate change into long-term strategic forest management planning using a process-based stand model]{.pub-title}
 
+**Albert, C.**, Taylor, A., D'Orangeville, L. · *Canadian Journal of Forest Research*
+
+[Open access](https://cdnsciencepub.com/doi/10.1139/cjfr-2024-0238){.pub-link}
+:::
 
 ## 2023
 
-::: {.publication-card}
-**The Acadian Forest of New Brunswick in the 21st century: what shifting heat and water balance imply for future stand dynamics and management** *Environmental Reviews* **Albert, C., Taylor, A., Travis, L., D'Orangeville, L.**
-[Link to Open Access Article](https://cdnsciencepub.com/doi/10.1139/er-2022-0122?utm_source=researchgate.net&utm_medium=article)
+::: {.pub}
+[The Acadian Forest of New Brunswick in the 21st century: what shifting heat and water balance imply for future stand dynamics and management]{.pub-title}
+
+**Albert, C.**, Taylor, A., Travis, L., D'Orangeville, L. · *Environmental Reviews*
+
+[Open access](https://cdnsciencepub.com/doi/10.1139/er-2022-0122){.pub-link}
 :::
