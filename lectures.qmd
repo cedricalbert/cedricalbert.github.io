@@ -18,9 +18,22 @@ To add a module, copy the block below and change the title, description and the 
 
 How to select, organize and present scientific results, for both written manuscripts and oral presentations.
 
-[Open slides full screen](slides/resultats_scientifiques.html){.btn .btn-primary .btn-sm target="_blank"}
+[Open slides full screen](slides/resultats_scientifiques_V2.html){.btn .btn-primary .btn-sm target="_blank"}
 
 ::: {.slide-frame .ratio .ratio-16x9}
-<iframe src="slides/resultats_scientifiques.html" title="Plan de rédaction des résultats scientifiques" loading="lazy"></iframe>
+<iframe src="slides/resultats_scientifiques_V2.html" title="Plan de rédaction des résultats scientifiques" loading="lazy"></iframe>
+:::
+
+::: {.tile}
+[Module · Discussion]{.eyebrow}
+
+### Plan de rédaction de la discussion et de la conclusion scientifique
+
+How to select, organize and present scientific discussion, for a written manuscript.
+
+[Open slides full screen](slides/discussion-scientifique_V2.html){.btn .btn-primary .btn-sm target="_blank"}
+
+::: {.slide-frame .ratio .ratio-16x9}
+<iframe src="slides/discussion-scientifique_V2.html" title="La discussion scientifique" loading="lazy"></iframe>
 :::
 :::
